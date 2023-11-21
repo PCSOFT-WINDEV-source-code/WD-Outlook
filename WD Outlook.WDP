@@ -1,0 +1,217 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Outlook
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Controlling Outlook.WDP
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Outlook
+    internal_properties : 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
+    configuration_id : 16534866083615480917
+    type : 1
+    generation_name : WD Outlook.exe
+    version :
+     major_version : 28
+     minor_version : 38
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\Wd OutLook.ico
+    language : 2
+ elements :
+  identifier : 0x4ac37b9d00d98edf
+  elements :
+   -
+     name : WinDevMessageBox
+     identifier : 0x44cf8ff602ecfae8
+     internal_properties : CAAAAAgAAAC1kZ2BPhsTzJvGzp1yT74ik5ze3v1XiWRVcZgre7XZf4WrH2uCgFZR5F5YoGCQaFigoA==
+     physical_name : .\WinDevMessageBox.WDW
+     type : 2
+   -
+     name : WIN_FormAPT
+     identifier : 0x3dca74421c77254d
+     internal_properties : CAAAAAgAAACC+PouncpifdqEYTUHVzXpCHlX3x5YUb3nFLdfJeetI5Vt8Tf5B7aDo50H8bEvyz2Hjw==
+     physical_name : .\WIN_FormAPT.wdw
+     type : 2
+   -
+     name : WIN_OrganizerTable
+     identifier : 0x4db02a1c00198fc5
+     internal_properties : CAAAAAgAAACQbsjU04iguwTCo+tVhl8vWu2ZidtqlCZKqAsfY8rKJtJ4roqrVfhFYdvFM/PtlQv1fQ==
+     physical_name : .\WIN_OrganizerTable.wdw
+     type : 2
+   -
+     name : WIN_ContactTable
+     identifier : 0x3dca744574282589
+     internal_properties : CAAAAAgAAABTr4ufLBkRypWTcCQWeB5uGSRgoEHT2mDxwORy7HCifoq2bkrqFseSsmxWomKeWk62vg==
+     physical_name : .\WIN_ContactTable.wdw
+     type : 2
+   -
+     name : WIN_EmailAtt
+     identifier : 0x3dca744e2f80260b
+     internal_properties : CAAAAAgAAADFQS1xzuvD3OuVdt4YK8QQvzxKErH79sbvehHNBQcX4RvVDxkYIM2YtG5oUNAA+OjQUA==
+     physical_name : .\WIN_EmailAtt.wdw
+     type : 2
+   -
+     name : GlobalProcedures
+     identifier : 0x3dca744b156b25ed
+     internal_properties : CAAAAAgAAADoZtDM+6AIE9yqu+NdsVOb1lft9ThiA6WlDcYNf2Gzfbdvk4WjXQBNeaMdmxvVrSPtdQ==
+     physical_name : .\GlobalProcedures.wdg
+     type : 7
+   -
+     name : FEN_EmailForm
+     identifier : 0x3dca744a10a225cf
+     internal_properties : CAAAAAgAAAAJBXEVks9nCNfRspqkaQTIk4xOPslDxDqcEbtTLw0B122jQVfcZAlUcKoU7LQs1MQMFA==
+     physical_name : .\FEN_EmailForm.wdw
+     type : 2
+   -
+     name : WINTPL_Model
+     identifier : 0x45812d0700001d81
+     internal_properties : CAAAAAgAAAAFAW2xjiuDnKtVNh7Y7vhUY3YC6t9Rm3Chbp80Ur7UJNgUzNxY4I3Y9C6oEJBAOKgQEA==
+     physical_name : .\WINTPL_Model.wdt
+     type : 18
+   -
+     name : WIN_TaskForm
+     identifier : 0x3dca744c2e5525f7
+     internal_properties : CAAAAAgAAAC9mZWJNmNLVGP9TpagZwzA55SievkLRffCmDWZadM73X+hQ1XQaBVgTPbg2FiIcGCoqA==
+     physical_name : .\WIN_TaskForm.wdw
+     type : 2
+   -
+     name : WIN_EmailTable
+     identifier : 0x3dca744d41f1260b
+     internal_properties : CAAAAAgAAABl4U1RbgsjPIt11j44UDRY6+ri+v9JXEH6jRjGvIAKzg7Waj74AK341E5IsHBgGIhw8A==
+     physical_name : .\WIN_EmailTable.wdw
+     type : 2
+   -
+     name : WIN_TaskTable
+     identifier : 0x3dca744f635d2615
+     internal_properties : CAAAAAgAAAD9WdXJ9qMLFCO9DtZgKdB0P5iKKrW3FuCVC6NrFzXhzy2DgRcQKNWgjLYgmBjIsCDoaA==
+     physical_name : .\WIN_TaskTable.wdw
+     type : 2
+   -
+     name : WINTPL_Form
+     identifier : 0x44cf993c0335328c
+     internal_properties : CAAAAAgAAAANCWW5BnM7ZHOOwAsHTJwI1VLoCM9G/fBcuUUUX6Vxv3mrx2vfLAC5HAbwyEi4QLAYGA==
+     physical_name : .\WINTPL_Form.wdt
+     type : 18
+   -
+     name : WinDevDialogBox
+     identifier : 0x44cf8ff802f4ffa9
+     internal_properties : CAAAAAgAAADrZcFNjjs1kKQ4Skps3qOmsoZi2+0+27kv5+WgPpEw0+S4ErE9b+96NFRRblGpFv1u
+     physical_name : .\WinDevDialogBox.WDW
+     type : 2
+   -
+     name : WIN_ContactForm
+     identifier : 0x3dca744373bd2561
+     internal_properties : CAAAAAgAAABKwLJWVRIaxYJcKf1/TDEtnD9bA9x25ClFKIZQPAAUFDjGHBwBP+6761VPqWlnE4VP1w==
+     physical_name : .\WIN_ContactForm.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\description.gif
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ wd_style_sheet : .\WD Controlling Outlook.sty
+ wb_style_sheet : .\WD Controlling Outlook.wws
+ code_elements :
+  internal_properties : CAAAAAgAAAAANGD2sw+vZVBdemCStzWIQgD5jDYZXTM/5sZfPbn0UjtMceaW5SluSk8nQshXu9uIqefp4Suv1SoSMNLoppT9vWKDT/NGt85qT5+VqCPm3TcqUt6NwlrBjnFNqKN4Lbfr1LC0KyhQz5Bq3Ez/AUEVvDpX2GYNCtZobwuErFebB8Zlg4RKwPKmCxVcMRjx2jurC2qgQTHJ74RNOtaZJBEcntaTloTyYc7VKeE=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABvJCDEn12OT3zUIfYwfPj1npKQ3ntXKPI9AuSaZll/iQgFzVVsK4Hf6rHa6zWEqcTrXynn3GWa76AZPYYP9/fknfFlDbxrpSsh2qaLReOKwTvg8RvFI6VMLeazTetzIjSZ1aIgEpMPOr9ZdwypvOKQ145yruGcQTYl/mbfmwPgYw==
+     code : |1+
+      
+      constant
+      	CST_MODIFICATION	= "MODIF"
+      	CST_CREATION		= "CREATION"
+      	CST_REPLY			= "Answer"
+      	CST_REPLY_ALL		= "ANSWERTOALL"
+      	CST_FORWARD			= "FORWARD"
+      end
+      
+      SessionID		is int
+      gsSender		is string
+      gnLimit			is int		= 50
+      
+      gsTempDirATT	is string	= CompleteDir(fExeDir())+ CompleteDir("ATT")
+      // Create the working directory if it does not exist
+      fMakeDir(gsTempDirATT)
+      
+      //Temporary directory for creating the HTML files of email content
+      gsTempDirect is string = CompleteDir(fExeDir()) + CompleteDir("Temp")
+      fMakeDir(gsTempDirect)
+      
+      
+      // Start the session
+      SessionID = OutlookStartSession("")
+      if SessionID = 0 then
+      	Error(<§@00000000000000000001§>,<§@00000000000000000002§>,<§@00000000000000000003§>)
+      	EndProgram()
+      end
+     type : 196608
+   -
+     code : |1+
+      fRemoveDir(gsTempDirATT)
+      fRemoveDir(gsTempDirect)
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Outlook
+     identifier : 0x4ac37b9d00e98fe8
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    name : OverviewWin_Ex
+    explorer_type : custom_folder
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text : {}
+     index : 0
+   -
+     text :
+      en-GB : The Outlook session failed to open.
+     index : 1
+   -
+     text :
+      en-GB : Check whether Microsoft Outlook is your default messaging.
+     index : 2
+   -
+     text :
+      en-GB : The default messaging is selected in the Internet options of the Windows control panel.
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

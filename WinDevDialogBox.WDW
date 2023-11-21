@@ -1,0 +1,228 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WinDevDialogBox
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WinDevDialogBox
+ identifier : 0x24cf8ff83136ffa9
+ internal_properties : CAAAAAgAAACYc+7dKIXA7K6mVSRydiMFgHxuw5dNJyXzwdTM4TgQbdI6tT06gZtqlQ2UrR0As2K60L4ftzP9VvUJKmFIC/5YQNzmg2ZX9DL/bx7XA1S4Ub3P4Zt5klP/FZsGj+ul5EcVu+UpizD7rEwZWR6P5khSpMu4CorrWkwSXaKhbbh8B3/4ienZql2S0nmb98lq467Wl+FjS8fSNFFgUU+lb3Gm14UwSBMTxY/p0r3jVriD8bdbn1yXCWBa6D/YkNEXYN+q0TXvdTu5T6aNPtHp5w5Q2zSNG6B/QNDg4kQFH76r6COkkbm8PMAbIMosNGbndQdPXw0TJpxJE+Ow3Kmo3h4V92cFpqsi5FBPXztx+LQ+5tazxf9J5NpWkAZV7CMfStz+95fVHqS8sONaSgAYLFuSxw+SXCqObWTGr8kLNJNty8eJc11/b1sLnqyg8/As48t09vScR3TwkVreF9FA9rvP69JixD5ZAySZtWTWqE8UyNgy/a+8iumQzn23isQRxjmlbsQU7kodwfbtTiopWfiHA1azqsoMYfPFL88uffFWHcz7jkjkUEEfx5twgPGmo0Q77qPUu+KkpDeX0zkJM2LcNETu0GT3+JLvZ487EyqhWViOGVk6iL2f8nkBI9DAXdHENHquy4ZxinUUjCszVeLE+r5Diz+oLLbFK1146ueeEhVTeR+aZJTujg3xynJmWRr4upDfaZHsXs5GyNb80RN7OJXdcGJMMjUvO8Yxu9RDe41deV+pPsldD1aN1Y61ebWqGzb3PZcNn1Tw
+ properties :
+  width : 247
+  height : 172
+  widthClient : 245
+  heightClient : 140
+ controls :
+  -
+    name : BTN_1
+    identifier : 0x24cf8ff83137ffa9
+    internal_properties : CAAAAAgAAAAZ7hRWReAHzL5ql1JJzZFU2Ulrc9ALBtlCBVL3N5Cs/6M2smYOt38mMcSX7PijaO9n0o3At98ZdiqUacWfltZdxgCdEsLNLO72Zm59KpHyCyuMbfE5T37uEqn+wzWNPIA3icYb4eMAEt0jFB4q0280GMaGKLxD+TvuFGzjN+lmzcLgMdHRcHgE2JQVZLbLfXGTS2TqyKrmyaCAnQQzxPRGprybxthY8AFur3MQsAA7sG2uQdnxdI4HIg35FtFMAbUQ/0HrohRIZYD1Eokog5I+lzkeifkOIsWQCPMn31UgMGHMCeusqaB4hMAWWdt7qBlFgtL6sgfG3CQ37VNPxTQAlG+wPc4iZxNCRfmABUCRRtGljjGyHyCq5mOw4Hpqr7BTmukCI5Cxfo340NgLfUt+OYqBXEBGB80HMatDKq8Z6TMdXyuvf3FJdXNWbxJCVeDTWahSe87UHc1JZLwJEuw81m5T2eponORw/zyYRuka/J2SUrPvlKEr3+Q7A0xAgBrTQM51+s8ZKNTMHgjSybOHfvCYDMhwpZ2sLJMZNdfACn6nKhI6y0Fw7zttTW2RnbdlN4NttCMR9wJtcF2X3+zGYyOJQloDtiamorT9VbffR0ZxrZ8w8AsCVqFjaTydkmhwagBB/SEFHyd176+JpP2d9L2XQ+Uxbb8wVOvHAzt4wLGvIzE8cPzEM/x2I8dFgetWMCGwx62NOnCsRK60S4//WmwdwxbgK9LIQ4ZjQpUIwuWIQ1ez7QFM23M=
+    properties :
+     x : 82
+     y : 108
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        type : 161
+        enabled : false
+  -
+    name : ICON_QUESTION
+    identifier : 0x24cf8ff83138ffa9
+    internal_properties : CAAAAAgAAADcXAnE8rz/z3cXEAuAl0FCpgyawow4/6deQ2ucPvTgJ4kCeH2+Vl5OAaaIT+J/0YjHnsYWljafwrLkkJkY5NoXSC9/9u9iPmlIbHEOo3Su9Ly+pVrBjjE4oB3AlhTZKhZ4X6o9f9FEoUp1qEuCRtjQ76HEfEK3H9NucY4v64PZeas3Apq3gPzCQqS7iaKpqlEM/wfA7e+LKvMzprNzYMLQCMeTSP2cCkkp+OFCxl7RA+xc7ZZ3CEctfmV0UHtYT6HsvGlByyja3qtXgJq1Hldi3LN5oDx3TrlHN2hZH1Khm/6wgCV75VheRXK4Yxa/JUp58HS6yiunF1pn4031vaXJSMTrqfibLHHe/gGG/xA1sFH1KZRTujrrlp/ww9K8LhjWy8sSpf8ElQ/cPQv98Hys0hy+KfoyJ0RWPM4EorxpoXn07uVn6wbz7cpOF9/EPBuh0LE+PTfAAa47wBecY+7yyE4tuQGCUJ9uksFjmqW0WCxgWXhgLkc8Sf1bK7+jbfKCzkVSeIQBvGVIOb5fYHk4KEBrGfpy1Po03wY/6E3d2kATwDMJv1iAZa/CJXJ5gSUlYcLLAT2qY40GehmOI3Axfp3sCK4Qxy52VEOWFNUrmGCkjab4kCCFKEbzxSMkoWCa8qp5kNBNfj2dJg/53pRFZ6kMPlAUwb0DkPJO7RMGKbHa9LlsTIJ4Z5l4B3cDkS0BcdreuQl/QRmheCuX6aAlvyhz1+aEJH9Z7ZlIDVdUKFezDqyWBa5D8EkhjW75GfebVgsCrcKCHVR148+MpXSQ7XF0E2wZyjutRBRZrjEkx+nlzcvOI8601vtooPT08Uqf+ETyXn3i1nEdH0A56OCoFmBVSXeQVtZ3BXiTA6htazWVoCnKIKc=
+    properties :
+     x : 6
+     y : 6
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : ICON_INFORMATION
+    identifier : 0x24cf8ff83139ffa9
+    internal_properties : CAAAAAgAAADYW/oXzcH7UDG7IIrbT7Oh0vR0oQTHXD3yj71e69ZzvyMOkDacBx33WokD4Eh42P11qK+ROWfPW58JL0jkgAi31MDUneQANsCzRw0jjpnFuVpB8OftgL68JHr9lLkCVGNC26LKZ+pA6cx+5496Mhc1RoZCX2R7h7iOadiNanI1asxCu2dmvqrbtcf6cYtx9+Y9AkXQC8S1OWVxdYyu0oCupPQ+1/qcxauhPPW3E8A+Rzp/fy1KYcDHEXOpCJnMfcm0Mf8NTUdz3igyBzpAiTc7uv9GO1eL6Y5twqHhazP7S/wKKziYC8lw7tPh89Q+mfGENKjpy5Ak/HVDy06C9VumYZ8UQh43E4cRACYxtHJmM7UopqSs7CMJPEM18ak8thtZrI6ElR5EsPfzwVYi4wi/PvHewgMYX97Rl5qvGXzAn4oGUb+ZeQrYc39vbzlnObUzi7eeYzKWrkGqhj1wZxZQwkITwm9oijnkfRdUgS9HCT1UGtBoMA4BhWdnV9reb2VDK7VqJDOTMt12VRL6CYY5CZWdISO6FUfSNtePaDvxlr+iHyZsY3bGWV3Feet4xQMrAO+AqKm5+Md4loQEgg8IHJ/tcjHWiCyJz/9D3w2+6XnYZfDAecVBhnO0Og897dRXcFZZRyoC043xkmBDVjKM6rpqZhHJFhEfEWg+u3eRMLFNgPX+exRv80XPCQJ44MDRg0NtdlzJkwgYM1WUY1LX2pgI1WaKvBAZ2V6JTyGxwYZIqWjPDs2cvJzzTZDOH0XKj1miK9WGMKk3vAB4daoDE6W+u77z22SSUxKn54KA/r28riQn9Li0n3LVumJc27Py6atxYs9yzzkInb4FIloMJjLrlUcn53RBPbIHow==
+    properties :
+     x : 6
+     y : 6
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : ICON_ERROR
+    identifier : 0x24cf8ff8313affa9
+    internal_properties : CAAAAAgAAACYrXoitnJvGPi0w/Fdkd+vq+vV7Z/biZrBVsakX5o1weRVcFn58i61ZjEHwWGcq93wy8S+9lCzPz6U8nwS3WIzhWBoPOS0Mi8AO9I7IjrXHRm1ZUra/xcx36pZfxRDTnSgnCd9BAkUYckwbg6/ML4XDpuyv0+1eFeKpofsD3YBEJ7UmORb85nzxVvtGu1BOK848o6OxfAorSZw8BrSL95ODO6a5OXZl/gBjTvIrHsMMtC44hoerUTSzMoZudimKYtxgTM1k2HS6hNI5/6wJI+dWgsTAoYf63KmUgXIK9EaPsfS6gnIH69RNWXuFk2jZYpBHJsQXhcudk1xumnWwKqV93b6/3yFHZl4Bm5pZADJiaGpjGAG2Oy5Ny+kmWsn7t5iCsxHip/FsbV3ZeC0sT7p1F87spXxFAJkAlnvffw7ACfeS0FvloWzCTqtLYPC2fTFlmg6woZysT9H5so+XCzOQzyqPI3sF/ByKmJ+dFzv0CzVNZMwEp2lXjUKLvzVZelnNyMwSSmkTVja3OqZ++RlXFVBMZj08GqBotxgKNs6UU6j56UVBs9MeEMSt8dnpggPgkDe3nyhmm23X/VKvNPYGy1fYdpBvNyKRJAydp4WG9NkAPRXOvVbJGUnn0U9dnW6DqtomYco1xYLw7mMXQUireVHfhUOnKXC8TgFYRkrw1KvNaFh5UOHo9q4isGgkttpKaDx5eayaKzFj6g+S5p58sAeWwPknkEKr0JPUgwqKKPhT3xqzVduBYLEkGc5B71zwCwsNFNJmsKq+O6DqkJ1kJc28azKVWBkMVHjy6FVgq9mlQb9taCo2NZV6Lrxaw5oN6g2wj15wAX0E61MRmSEJWESzddXa/uOT0viZ0yNkg==
+    properties :
+     x : 6
+     y : 6
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STA_INFO
+    identifier : 0x24cf8ff8313bffa9
+    internal_properties : CAAAAAgAAACtXnZPZnGOKw9iMY0vRqRHcwKIrFri/nHJk4vbdaRA/ggmROvBmkwaQaqM02b45ljArbOy31DdoaO26lXyDSm/dn6u+PPLhUN4apWxz0WzNC6dqSujxTlhYjCJJknWj521g4CaA3Ze+2ELUdz1U15wyjeR9iG0dHlqCh7fsHhVSgWnzpcEDx1DfjFNoXAYI3voK4jueh9xptrUwtub4v9Yuw5Jxbl5rqj0P0rV+rIRaZQlyh4PVeswAn91PrXZt176i/Yf4OYzsK7T/Gb8q/Aton098zAfgmxsBxBsyCiTjDqVlI5956Xl5eWDyLdI3jaEFlQ7FhftOMcMKZJD5eui4B/UUAjfRjnaGQzKAfw7LVY+UqGCOQ==
+    properties :
+     x : 60
+     y : 6
+     width : 179
+     height : 48
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_ESC
+    identifier : 0x24cf8ff8313cffa9
+    internal_properties : CAAAAAgAAAA2A0yfPGMW9ueVzt1asw6+dpdOGU7e4B2eWiMpnERmxJVqt9+6EHG0xvoKlstUvPronBu0tisSo4NP1iT9vk4bPOLbu1UyfdZh9SouHWrelVo189a3uY99Sy6phS8Nzc7CQFsVMFjOm9kLHOM6UyAMXgBYREAzyNF2yCQCzRZDnRMjxBnmJcIxrqlicp2DCdPw6EIhOo5+BthIhLSjbu0Bstm5RVpDUtKVTJGPks1EQ79oaI5ZDxaiUmhSyBVtogPG36TmfOKtTXa/T2pWahvMX+ylzdwVccDVKzWHyPhKaiBuHWjvwRU9ScPCRJ1pxlCymHTAKWNUI5ge8JGu4NKQT5BWQiTw51FRhOZnLDpE/WGJoBbTzIZN+hVgxWq50ZeQhlWkoU765PCOUrYuaMs2uf1oqYzKasCFgmjjXu2BUADJiKKAk5Hk0lFlYa2Z3f5xgfLuo0ps8Zw5miqSPtrXSxT5n8y5gTLl8wj5UCk/aKdxxbsy3x3DD+EUwgGTJYtmSihKUnT9UjWaWkBTEohIfxbY+oBYNm3lZGrAFwZywbVohIQoINPmBnkUTJQNq28/tufclyid+pqh76GyL6rPay51UwNXrqmE8178tgeuQF/OHaHjY/vOsRklLJhqbylupZjBG+1T/ySNTdWm4TmQ9EiqgK4s/CvzykfBQhquHMuBBXO+8E51MT3lPj+zEnCVX/53kTnmZ9nqZVuWru4JECe0Ce355mkxUliaXdM9HvkvcZarZ98e
+    properties :
+     x : -33
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        type : 161
+        enabled : false
+  -
+    name : ICON_USER
+    identifier : 0x24cf8ff8313dffa9
+    internal_properties : CAAAAAgAAAADnnK3kDmKFI1Qv77Lx6V8E3Q/Pnnh+KN3IoNA0aP+osQISLc6onmbGAjPvRDf3DtyOf1+Cu5xGqhZYPacmBpbnPu08p/hoEMaggyFsCAQP15kKtoQk/DrnYYxGCerwG/8WWTpnaEOJTVi0cqNjZqToq1hk3B9bmpKkDG+Fcb7r1wy/l/uumKMY748sHlRqVc6/hK4rn6auKwrR0Ou7iyYeqSXOm6NLrsTXOeZh6ULJOvDuba6vM2DHV0t36l3KKX97+L53OEfcxwIfIB6dBZ+mzoHOtG134wEFE4F92T52u9NEJDU1IREMrAt10YswyPVLxUmj5k+Dnsa0KBHsJ4m/CZzupsZyU9DI1nXg4WV+Qwhxbt7QFHbSXLs9JHmC+rrYc/kE4W+G7Cg/GEcPlC5GSexP/1EB3rrEdvP0sbl7+DD7g/UUlcmDu3OF4j38Abdp3jAzDhxZssWSpDwV0I8zTbWZSLldpEKNrvm+AcLj7i9sc1IwohpIYaEgOmMGNnOdGePkyIan1uu+azm8842MjC/S8sxSISNDN417rE1GWGsZ4mO7a0CpdbFEIeNLlCzxL7VJe5vzEzda0pXEq5I97ujBtWxIw7taZ8WUTKwNrgIO5AndHx9Li2lht45J0dp/M62e/JPyoWglSoEoWciktBa9YQyYF9QUfsZDF9QJN9Y3K7+cyZArZ/wvihPJd9iQdivDVcyvv86A1dNVOYDgCMpNHODQoi0vf2U0pKPLTjrBf8sX6rT2QQA
+    properties :
+     x : 6
+     y : 6
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_TITLE
+    identifier : 0x24cf8ff8313effa9
+    internal_properties : CAAAAAgAAACzRSoh244sJ5gNrsLcI8ME0lABQgNyYiPi0nr2g9XC9HYugBcwQa4QRvU4Cws1TE/sRR0JETM2gc1obhbGirZhQoXbp2pQWYV/B3Qch3OSqav3O/76eQs5jL50jNkIYDytayAKRrWO3NvOKsFe978Gtq8qoqkDzS09LnPPvneRfVJeIFb0JFJNRyYF5uzNIMGRtly2mhpPTUJwznpsEI2U9hx+hsZq8VZf6chycwi1hGeHfPa6v84/fYG4ifWkqu79MZRC956vl5erQg7qaqIFVTZbuc3fVnppgnyD2m0u3aQ1gBJNQRDHIJHxbBxnj7d3wegQvEJMi2sRTrjGzjl3Ai4MVmUv9lgbu/Zq7/4E
+    properties :
+     x : -109
+     y : -32
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292574611901dae6
+  internal_properties : CAAAAAgAAAA8Llwg2Ho2FzAiagFjCMGiihql7KTwhHdtJELF6cVVMZsjVXFqQPsGbSiSkHlR9pyIt60POaUGPUv9mY+z5nTqFXFmVuY1VlqO+oa3GOLOXfopx4+M4X8pf6Yb6qm9Mnmo4NiulpLdrmQmI3WOkha4UcQdtGRcFCeGr2mZK4PU5Vrszsdl3RqXGEo5lWQ7CO/Y9w+i0Jz0Nl2s0ZakgI8bXp1MdjXEkDjUnG1w3u6RVumdLGOsnq1hJVg4voGg8agIUSR36AIB8RMtYuNEHT8goRhb/Dys1RQ=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADNsFvxizsdcrTCGovcUcovsO/Ok9DvwWKprSpFxPEGzzuJ0Qw0dvL050MUWAZry4/dGibWCMbObjxaZv8VmB9sk8hwZF1WR8DVBQF/cU9VXvcgu9eDVfJZWQfQ9dCHJjU=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAABSZcEqKMMqSPzAcxvuUIuAcvyqNsPEadYclsnHNpRCpXegBVqAD3wflet16sYfJpmmf8Zc6yubq82PmUhvtiyVqViRITtQiYmxfn1y7do=
+  original_name : WindevQuestionDefaut
+resources :
+ string_res :
+  identifier : 0x14cf8ff801d9ffa9
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Cancel
+     index : 0
+   -
+     text :
+      en-GB : "&Abandon"
+     index : 1
+   -
+     text :
+      en-GB : "&Retry"
+     index : 2
+   -
+     text :
+      en-GB : "&Ignore"
+     index : 3
+   -
+     text :
+      en-GB : "&Yes"
+     index : 4
+   -
+     text :
+      en-GB : "&No"
+     index : 5
+   -
+     text :
+      en-GB : C&ancel
+     index : 6
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

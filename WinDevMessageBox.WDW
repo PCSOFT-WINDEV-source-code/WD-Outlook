@@ -1,0 +1,557 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WinDevMessageBox
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WinDevMessageBox
+ identifier : 0x24cf8ff62ec9fae8
+ internal_properties : CAAAAAgAAABV/lRSRNRyioK0DXxVS2y43soZmTfwiAVhzEFTQs2CvlhHpbXiZ1c7VPITE2BnzzLLrWvdnTwUDmwHX5twy7fiEUvrR8/E4HIW6sNg2Ob9qwPdPF0SjGy0k7D3xKq7G9SmuX5rgEow7yBFfNbYe3ya+QxHeVKgLbF/39O0OjJ6UOkOnrrdnFJc7N7Kt8lgKtQmT+O1jgraJIAfrCNVU6cmF9w+Q89XFlSZC3ahG0vZr2Hyq50xy6ksndTy0Pg1qrU7CJdhjA+XP1UovnzOx9UkM6eMQ3OU3u9kobxpByyhCvn5aDBBlpEJed65ja/3CSHnigItYQxBSgt1ScXRV+15zwG4FS1cTxfL9Y4M470myIiBtRUD+GhUlVkKRORnYEe0HmeIcnqqFJ2hXQQ8cL3ycDSPZvjYN5ubiJupqKiMyATXN6rjH84Zr74lZb3+XBcilafBEK2VuiDTVqwCqSA1ZNP32OVitQt4A9fQ+r0emJ/uSIDMoofbiQPHfDa98RoxStCUJ6whd/513IAn9R6DvJdfi6wrcq/vrEntheD7f95YWMhNxxZ4l35bXoY0xBasMwZ6RYfwBpGL2ln3dCA2BExCFeNnmp5pz1QVpeIuiupYk908Flrcq7PWki0DlZ/qfXZXEDWCgUyJGLheJDJWXg7SHLEO/289OLbEwIHZUt/hVfHv4BxIYNIbnT27hk/991K3MkfoFugWuEpaKjRjBj76LIPYmMZYf5NJSAsbm7bRl1eWW6vPDfAFVFnOroL4ltEBXkhOP99dmiODBEyEPEFuGz1dBlwSohVxR5Xj3PiFelpIgB5ZH0iIr9Fku8xoAcuxqjE=
+ properties :
+  width : 356
+  height : 270
+  widthClient : 354
+  heightClient : 238
+ controls :
+  -
+    name : BTN_OK
+    identifier : 0x24cf8ff62ecafae8
+    internal_properties : CAAAAAgAAAARG0g5Czuq19wvCFPehjCRHf6KH0nHjeFuGhbSj9wOrQDWwyZxuJyXoeAEvuO1Oyez7JuaFw8mn0Qi1N2qWhF5QYM4RjK5Nov5RaEUIKX1wAy/0JySE5phxkMUqTjcLeiXrmbRTvKb02uA4gLqKEnTT41z4v7epdLSmuuIWAFz8zb9eNAuEgsDl9A5j3hGHJBp82K83uXibBjd6X708Eq8wSJvqZG1Z/hmhJazeH8qa40ngC0XsvGX44ubpZr+8+D5D5F9vKpcP7vZwxfRqPMbGicrrqQKIEJ3uuecXpyBjuWvGOcdVmjtt0a8NEKE1urP2r7Jbl2KHHDCMJTp1PpEnAWN5XcfItJw10pUwszR5sGF2SPtWMkaVJ2KoD7rVgqfy1+HnPoUyiNepGNVVE99YEiElirlajWkombzUCOm4VjgQrLLAos6HTlxC7MdqZ2/DZsMmdR1Vc+tDGKUzMLc6hypXlwbjHrTwlCcrQk+NwN6AmOi2vKLaavUgHeeSSuhPxsvpqzMETC6l39wgRhjLYYa/cSoJ/yHYGMSUP3psnKwC4I5FZ1wAL7AyK2slnrfZzC+Q1Qf7hNu9pDQD/dQ/19WqmHd2LcKokhapA5mFaPlg6bmWnRa+IaBszKDtm/YDKvaLygQlGIY69vEl0P+Jhyu+1Kak2fO8GHrcicdJ+3RKHv/TadqO7cNKYynwIB4yGPJDcSqJnL4yHUBRxEBqy19BFnH8iBI/guZJ05XZziGB7OT2TLObdLgCXITbPSTLIH/Ueqd8JIjmYKaAH3X82jzEk+MngyZSdbPZuVo3ba488NcRDokX/8rv5agOSpEtH3O9UuI
+    properties :
+     x : 6
+     y : 206
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // closes the dialog and returns IDOK (unused value)
+         Close("", IDOK)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STA_INFO
+    identifier : 0x24cf8ff62ecbfae8
+    internal_properties : CAAAAAgAAACQ85DeeJR223uw42b27g7qismCMzrgxA44BywOxNn8RZR5gi13exDV3fmQ/Nl9pPNPV2DiiMYHA0YniOyE6mDSn7Wc7Dbvl+vkAFFcyONV2PVhYbLQihsa5PrvAmVwzSSzGx5yD4YLs0A/0e5AH6rKikwt4a9f149hVKol36ME6/aqyBFUAzCIGClGAe/1f3YUZa7Ptf6Bpj8a6amSJ4uDgzDd5OZoznizjbE/s6lvbLpxPtv6fkNIb90wqCbuHf1Eq7HyiVn/1LyD69F9dyodMSczwArKoGgfTiUwt5GffTEDXob9MQEeNAhdpvxXfbJeQz4sCmE4EEK4Oig6u6kf+QrnwdIfbd6YjNqAoe4RoneZkQ==
+    properties :
+     x : 74
+     y : 6
+     width : 273
+     height : 142
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_YES
+    identifier : 0x24cf8ff62eccfae8
+    internal_properties : CAAAAAgAAAAB1mldKfh12yP+Gyj1lQrAonKOKlG+FS2AprrTY8mpJ1Or+K4XbXNwVqDMiowuNGE8Q6o/9sFp7MJyMGMDLnv9M/SbXP4fVJaRH+VIsl5APnxqyyE5Vb01NB0hSUWy0qXVqu5kLIAWrtXkHl4Zm4iFNcHLYFf4WeArPQUqSeBuoI7yeXu1AvT6PNLUF3UdKHzTKFwkQxCiHr9nAiTQGBPyAoodcYOpusCZmLJAgIkgz6QImL5xaBBwUlzkHeECfZyJRCQpU3Pjjxs7Nor1N3NYPAKzlgUmnfeeGrkzRULnfhvjt+XoKRd8GF9RpkSbvXmiLTuUOJtRC/UMX6m/O2rvadYHIetc02tlX5/QBUNgFhTME6pdZxmeHUh2ZSHvfyz9b2+q2fsl1DOBOkYhYId8h8q3nxcuauFlcAI98bulyygI8zMMbHI3QhWAv/UdMg2BZ5Ah1sQIcpQDWXoKKDOq9q60kZcfCYm2BP1g5x2Vjx3Ga341MA32WM0J4svOCrensRi66TwPWk2oIB8Ks5f5/eZ9FEMYJmsyEsY6gm2y0iT0RnEQFfxfL16Pgrnq66KIYOGWhkj/+658CKC4zaXpRjnzOBqHScJWGS5+bkJFinrpo8+O/5rZ7FT0sQObubt1pbh4FYdw1XkpDkfKxwaOQE6MIZBfyaVmd1GHhLlWWEdGNIFPRA0+Q8Hmhm2YIl6frZ/bBpdF3vWs4zMZj+mw18K9dCGirqTfVgrFzy7gVBRWOILbFJC6xGW9jia3cWidt6O3ERnMZ+uzGo7MLi4TJSqrXR63iWBh30cYY7pAmuuVxUvcLHTBgVHZX8WAlIvj6Zr+kRnpukcIAA==
+    properties :
+     x : 92
+     y : 206
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // if everything is OK ( OKCancel)
+         if nType=5 then
+         	// closes the dialog box and returns "IDOK"
+         	Close("", IDOK)	
+         end
+         
+         // closes the dialog box and returns "IDYES"
+         Close("", IDYES)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_NO
+    identifier : 0x24cf8ff62ecdfae8
+    internal_properties : CAAAAAgAAADsgsYH+dbI4Ghu1swJT/N3+iFJLmJOaG5sIUQZDRRm+y22pvaMczDE4ShSd2OLaWfUPSlgdgNlfszpLGvS1Ljoz+hpYdv7VqWqF0d8jPqqxH4HosthLrBd64x2FM+n2LdsumWYI+2DhrNQvU1J2E5wMehEUsoTNWpXUCHMZtfZewnH9sBLfjlMVzaIK2rC7zvfDZr4bwX8Ste0fHOFCGso8faUZXqlZOMvMQ66WzdUrR6+Ri8a0KMFacxs3oM9EK+XwBoBnAjMQU6jXR97JpDZfVUn7t6vrxoBq4n89cF1gZJmjL076BO/MoHKRBW+bdWpdQCWEmwRiz3wHAGeTkZvRR6qwcoUcBksIw7FRQWrSbUqqu20F59T6riTRSkxfDPDDAbNqTw670rx2G0cUfauI/pR0OqsukExJU/js+A6L34wsxVWw1Bc4lRPra0C1cX3IhVI8fxRuPvlp94d/sPVohe1I4zkwITjKthKD6Qk7RiB6H97tsilxISqFKilNVb0IdHyILEth6AFv1en2gjZ0xQoa8jHxToWMfGbV5xTkAKgZwcIv1ePZlj1FuxkK4My0lHiAt2Gu+4nwyXbwwffV6BOwsv8xyKwVhdsUsLDjGj8PPvejXFWdD+Du0sVoaCA1eH9Ujm8GPDIXBGA0m/Sou5k4UQdcvZPAxDFrOnaV0cq9ke/cFt5MDfTL6wLW1TwA0JOxDuow4kPIfhX+8+gAuuAFcG4XIHXQfEPmiDkzPPemA3rofca3aJbB+o58Y0aHjzw5lIYknB9HE6cOKjhFmVWdZ5DKEZh+BWsBxAcl54pKHWnDWQDQDjnGv/4C+JS22c=
+    properties :
+     x : 178
+     y : 206
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // closes the dialog box and returns "IDNO"
+         Close("", IDNO)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CANCEL
+    identifier : 0x24cf8ff62ecefae8
+    internal_properties : CAAAAAgAAACO4S8NaehXMkirlW8fVYsEeU5/Ftr+MdH05iUwdEhXRzBQ467vTypa5lVL2VwI1Jv4OTqLU1h5pD0o1TtFQEoJz/73mPlOJXRetro6ygcAdRvrxwYg5hZG5QT5XduO3KJrsPoaUYUDZzWiRjUpxBpYCMhs+TvszWr/B476NcYMciPCTyXKXQrIEuk0orTOYY6MYuu61LJKASUsvzm3LqysJTOcDduW45AcQ8Iau7lpMn6J76+QhxGRt1anW2JrcHmQuLxJyH+FoGLk3AWuPYmKYNYAdAKodQVO1batAd/VcjY4tTqjmBlU5FcmEi/GgZd1yQDHIBL/BB2BEuiY98TohrZ9jktufqByDaEJbf4eYOfrTLYxk1FwUdkS4dBI9RBpOqNrew4cDcwaPzOA+sZT8+npmjMLwdLvLi0LQRSfIuPKVORx8x/WplTEeff2vB7mIkBpNpgqnNHBeowBOLaMe12c2tdwDcYnOrHEH1RvpIFNDWgg8LnL8DBxoJZfBtUVVRK5M4eqKZhBytXz9u8UfJo7kuPzemZYrYYBE1qs/QkiTPxJa6BTgGxWydQNXaN4YCKPVvFsuU49vCGMUybaDqRlvqnCu6ovGDJgG4+KmosRnvCm0jcmT6pJI9kYS7yezOiCfxCqGSegIizFnLp/EZkg4QiEkbl2LifMK0CeMZgB6isZqeXIzXhGCc5lanEKJpGHEkAZoJ87TZJ6Hu2jEvfnFlMdcn6B02yAgEGoJTmZEmqDxW7sIxm3IXoSC10yU7mT/eITLVFKWJOn5VqwanunK9O/KuOwZ374eaFvu/+Lhn6B3NPXsooqpwwRQXBiIhqGbdAT
+    properties :
+     x : 267
+     y : 206
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // closes the dialog box and returns "IDCANCEL"
+         Close("", IDCANCEL)
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ICON_INFORMATION
+    identifier : 0x24cf8ff62ed2fae8
+    internal_properties : CAAAAAgAAADx9Hb+HReJJ7/91+nCbDHiQAm68Hfz1PRFzuMl1GJR3lclr7pkhWfOrcKV9LpV+I3+7a6nh2u6vFAD1bt7Becob+NgR37cMugBTLBDRRwD77/8FIm78USMOB7Er2Itt8u39KyKrfJEO3aOofNrP5mKandv/II/9e0LFxxpE8E+tq+/IXkgM0k1nQfhx5fJw8CxVSfoo6BOYOiTo5vyyObz2dbAfQ9Ex3/Y27XUfVKIEJegDNsoBMiGMC47L0AlvI9ozFFB9yptmVEFPQKz6UNPJ3cqJpThJx9EPaGSUqD3qRp5ZAQiPicRXIQOEp9jaUpryH+l4rZKE8dq+EoFfy3zc4U5GLBIFxPjGy0sBCjdITOiLq6O/FgLYFuYh/1g1YfdbbIDRn8aTxV2/9J0L12xcywVW2ZmsSTIkeSPi88jh5kYkCC68Dqp1EECpZWVSeJaLLw9lrnEqAoibNHk1mnnowyMNmIbWA7tL/IXV3GUhweAC/yYss9lfwDEOp7irZevHS3aqwVC+T8REAMOxwhlYKiE39cTlhHv6tq1f3o8fmxLQZaKcYx89lFJrOIokUhRp5kRIsjTLJBLS2QI3JqRsXesv6sRcu5qVXHytTNa+OBpnO3YKHsZciUCVT+NbdHPd4w7UeGmOgA0iBeaLFE0+70w+HyO+xbuXDHPTqyMeKyWwBPdQytecMncIUpbK/D6quNLdeaWKp2AnfFqa4D3JY3vutdJHaGtYRtxCh9zDjEZb+TYAfcKZjAp6qXyPMfwz3I7eHUfu34Gux6gVZ0qhrTxVj5OJiJwkFNAxabRdEgz/mMjqqt85PzrcXjoKHp5lVUdbJ/6YL6qVlKlafOn2LBRvS+RwOKzEyWu
+    properties :
+     x : 6
+     y : 6
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : ICON_QUESTION
+    identifier : 0x24cf8ff62ed3fae8
+    internal_properties : CAAAAAgAAADVrFA76Q1ifBikpd7f0vphI0HhjjfDEDSJAEiQyuhmxzf+IANoCgj6JvIsix7LvewNbn6yRsTX4poUAsGkzJKptzaocva7RaKJXQBNfOdfo8NtTGHaw1zV+UwDjMJ2fC27ikt0VOxhTC2A67Dzo9/T7A4VGWMuPIBiSov85uTOA9Su1l989ceX9/+OcT+cfLUObUQ95spEwY7cYuhwHbPwKaGuHbrJNYb2H6DBvzH4Oodn+INUZTJe9+SbB447TnoDPpA3/BvN+Q3DdkOc13sR/SvfE6qJqFdMkvmcICHUsXBri4nNwYDZyN0P3km2Hkn7UZ9UZOpVZw3x5ISyUqXS1GUgf0rTRxuxiBmlv0T7j9f01Y9rLq/wpPK7sheEYjRilIgLGgHg2e/LcXYVw2ROXn/wZRslpOTVfePXVVt8Hh4z8MQ/K91vuMmGEQ0xxsR+XASpveOka8YNsuVOtcJ+zFjVEckUy3XeNbh0hipd4KZKO3EsO3wXGBK4RKa1+1hWjQDFfq8Ih7ZUTVnEiVV8KvIX5yZdKRDsYQL1/vsPbax3cs/+v5SWX6/iJFWe0jzCkPGSSMIDPtjBZTaJeKsIVwY9phT+U+ypZhWWSKHjbh7cVeWX8du+EXviBtw74ME9/V22detCFYRUrWBqbWc6OiSXo3Ueh1x2t2/JaT9UjR3stvlst+QDV4FYPKx+HLqMBGVj5eF/pDwYk/Do+CJHWUQXMcgs7NPFhztuFycOGEedENpQ70qnl+RFbEnmLuaIL7xXShU/+PGuTPaPCINhXJAV9J1YGlGHUnoTcqWwWxWPd6m0KfYEVvtgKEzUiMkeneFTF0KL58a8cD8QGSkZkWfcp10yNthFUXS/d0ZNrTeduAu0Ka4=
+    properties :
+     x : 6
+     y : 56
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : ICON_ERROR
+    identifier : 0x24cf8ff62ed4fae8
+    internal_properties : CAAAAAgAAACe5+s672oY34U1dbvpjV3nR6TnPSSGUOvTWm0PR/7DY4YJRgxOQQSzmqqZKcvl4uKVXFDh1Qp4Y+rEL5Fle9EiHWPJL95WXpYEbK3uZ4GIXe/YDVoQnWFnz+LGfJN7MgXYnltoVP0iVvDLkyeiGeFftpR76sjJE+jV1JCoqN/VRCTktzzuSZFK+KMXc4lPIBWotkcRfuVCpA6fMJvXjzd+XA3SEJClv6Dm0HrTA+lFGjDvl6/qj/wN29lWb2kNBovoJ/d1W3fh1QL1VOAAn4tI95j8heqif1ifhdOIO9sPxUF7fIIQoPq2Vvn16ya3TZ950mC36E7eEtcZPvsjVzCJ9A7ge2sEkSgGvCsRe9P3wwwSU0k7HP6oaOcltUjW3xfyR+/8othwmtry59s6vhAMufUSJQI3rhIJNaYfjDmXpT+YNPT0K+Q0m7971FkENZPteCreIAdY/OUCkkLkGqpK0OPKQPajPAkIrKcRNa/ZvmnLYU5HSIlIyLYKFYBnFfFiS/OfGsGOm9L8V4OKZgKtOUQOha71uTMyqsf+iizntjNd2XkGVd1XMvbya+h4lpDi7EVdDiDCRwQTIM4TPCdQKEiLtBb7XuO/NWL0UtQ2/Hs3bBBwEYUZ+ck4yTgBfHORqRPKaXIXgrhUzqf2ntHa3F19ynt9Yckdg745std/ao6J2X9XAgxt6SlfGkRjSIpTHjB175SSfdooR2J8Va7TH2PlradlViqQCZdNtxpi6ENMnJbY2dmWThT/GiAIGL7Z7boUqjLo2So2B1wCmoxJ5cY9Z0XWK7Lw7QBCE7ZxApQQTp8MEHyXr/S+bJaYWL9oAThFecoGPisf0cjwyOIP2M6HXKpkrspv4U7ro5Pp
+    properties :
+     x : 6
+     y : 106
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Copy_hidden
+    identifier : 0x24cf8ff62ed5fae8
+    internal_properties : CAAAAAgAAAD8Iw86fYZxxWe4ZkSqq4WcLiZSmHAC2mgZWJmZl0uqQccslKTRKgMelevxFv0dhNXjpq39gfJivqJvIZQzpb9A1xyoYXJ5PCr8P7NzG/OQCF+n+sST/8zmRNcmOhKaAcrsYKRGkwq+3PGwhevgtYhhDBRYa26xq/Yxr3lmSWJUPgxAQV+dJcDPnmSxtxNTSLvHDuSZEdNFJHurXuVnsE4MLvRKpWMp4PuPunhKGaBTdYWjt/8lQWWUz6W8Q99ocJg2bYWGJca7GA4YB7AeBAoQTQTs7w33boiMSwR/XbP8n2H2a3TaWUxozo8cvp+D8oLW/hv5cWedhM1x/dFgxepchqjpJk3jYsMxsF2fC6ZdT65FNWtnphay9MYYnDUGrb0pGNl9b/HYIw/ZGkBNisNgm5Om7+4VhIz5gGVPdq5t6xPoqsBPDrYIPQbCPe4h9b7pknufJfc1qEl4mrhTF96wKr+6GuyNS+FceHyequZSljmJZQCttzxoS8HvtWDN3l4T07NYnpBuK9gNpICGvE1TBO+nvRhX+GJUc+9bIOUZr0UqhNDNWKMJIZIQyMYy8OGr0yDG+HeLTMgSqfKZ6Zp4+4b06TwGyBX6HzsDKkWKV3xdNxY+ZZ6coCOwqp9OvoTfd2nN7tcBglAF4/KNT4kc0Wtm2Jn6JQVTdtOflp2jX9r2Opr9xCU3mTMMRqgV2O6+owMLXwiXn24fjkSqv+MhtZO0XxCcLcAYqarEsXb0RtXfx1RhlnUol6pP4UVHJ6uWG2JE+5A=
+    properties :
+     x : -33
+     y : -24
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAkI9BOoSGWiEfmCw5+g8zrL6DFOchRpGbNs28b4UO+S1M4MC0h4adn0pKT0cH+32iTYBujJ0v37tViEJu9xuWJcr2gjXisZXqDI9B2U2aD6wgnWhPjsy91HY8tnEJ1oEekayndLGtO1xT9FQ==
+        code : |1+
+         // the title and caption of the message box are copied into the clipboard
+         sSEP is string = "---------------------------" 
+         ToClipboard(sSEP + CR + MyWindow.Title + CR + sSEP + CR + STA_INFO)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ICON_INFORMATION1
+    identifier : 0x24cf8ff62ecffae8
+    internal_properties : CAAAAAgAAACLntyI21F76QnTibvMZjvkUjsYkv1FTnY/tN3/voS7sOnPFXQqz9mQfxD/VpR3Qhcw91TRrR2cnnKh9+WVb5Fa6R2+/eg6CL5/VgaJGwqxpY1a1oc9pxpKLmjSlUBbLZmF6rYAzyAKKYzgh/HhFadoSF3RslQdSzMxKdKXIXf8jFUtY/ca6eezs2HH/WVvqeY/ozG2xSZ8BuZ1IYFQblyRx3Tyy+kynQXmbWN6OwBurj1eDimqqt5kBnih7W6D6u3eEqs3YdDL39eX02iR30FVNV0cfDaHJS3Spx9gWH6VJ6DnJqIkTDVPCm6MYEWpt6jJXrEL7Dzg0W385gCb5RshgXPbFgK+xYGpPZtKaqbTb+kYYHQ4CpCXvB/UKwF0tZcJQdL3NnPyS4Gqk2agS63ph5hdr1YaKeA0tWiL/+OL58WkWNxKRGQD8kdcDzt/Y4AIPu53vJMmesBIxsu6EEMF4a7OELgFqvCbpcxZ9cPGrT26zabGFJ1DkfpmmPwEgyHJL5dIkSeAlxGbskHs6X7nghJ25fXFdG8xFMzrldRKAH592xQAw4oquCu7MmiCPzLL4dun0KLZMuIFrfqGXhjbuzHelXlLKMQ0x6vIg/UY8jqLhvvGAtHfvOccU53fk/MhGfZJb4vM8ELuekUoLkfmfedSPhI4MfwILls11DZ6IgYgsskz7dH0UiPu9wDlscJcHLVhi1BMcN8qb8cgJb5p17eZeG07C+93s9WPCIGBIFPD6VJmqw3AUJKjUCP0IiEK+bwJ1p8VQcjQ9SSuJ0NMqFYTtNzovLjaCt3+u9Av1iod0BFxZGGyLrYVD96ShtTTb7+j6hlw1iBMiGCrc+mZKgIja31DfiD9rU9E
+    properties :
+     x : 6
+     y : 6
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : ICON_QUESTION1
+    identifier : 0x24cf8ff62ed0fae8
+    internal_properties : CAAAAAgAAACv1uqFL8+sPtr+HxhZSETnpctjAL19MtbrqiKybM6YbVlQ0v3enPpkyFSWLchRV1ofGICEBFY5VFyelFvOOozHIdBaIKixW1hvy377WgGtrQkrSte8qTq7n5oZh91cnl2vxr1UoF+HfAe8Q+Z5PUuFMPLvNQcMjrSjwKnkyo9YupiuT1MwO+nlnXeQ+/NC+CluBQZxji9KlfGXb6qYJkMvD2r3hw9406IUWFn+iddfVe6xclOLzyxeGDMzrRu+ggoa6Udl4jN9bVkxUOrnhbsv+hNEtzwTUbolnoLa4qtlA7KkwNnR6TevPtfhmqN4Tr73eaUqTlgb/SPP4uIYlHvUCruW5SQ5LYkfltdLLQZa7v0S090d1K3eugg/Rgc49pKy+Hhz+rk4SScbkeaNC0zWRvdIleMFBGwF5dsfBTsc7s4j8Cyfg8VPgAl2RVH18phasDD1CadApxLJtsmy2X5imJyB7eUIV+HKIZyIyn75ZJLuV934i1R1qnDePvz3wfqg1+pTpDHuyniGd8dCo7u+5DTRJawfx26OwzzzJN0VHybp/M38O3IHHIInkZwTcccMXk/cCQpd6m1ini9LZlxcDPESl7bMcLVecR1Jb8jA313x2koVUBGOHxIidMY0oh9h/4wPqADGiojYaRVIrJYRFV66aOM9eDaqZkQ+HyTY8WOFL+5xzoOkjHRLgeO1RafT3b5UL6sFCeHq706Oai20ZNm8nl1XH4K0iD4L/HiRuVYNnDYyAbQNK3YMKmdQTFgCsT7dWO8F3uuovgTF+rnj1trvEiNi0If59JwhcMf2PXd5QV8Cm2TyQBUKRqJudjuQD1PhhdwhfajeEl12g0c7swFmLdu8vF7fu+4FvQAL7/nfeskKkxQ=
+    properties :
+     x : 6
+     y : 56
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : ICON_ERROR1
+    identifier : 0x24cf8ff62ed1fae8
+    internal_properties : CAAAAAgAAAA6fXx1bxVfOPwYfI4Xx++9BsRqlSjvVPurcU/V7jKGsjSfZB2H2qIm/a64b0dt3cXOscTw+ySvthE4BVWfYAeVHaYqB7P3aO7tkVmFMB+dQWA36iKM386fwxDbrr+OB0dVTUcJscO1IvAAAgtJ795ocCEgF/fyW1yrP8YD9Sh02lhgQqnv25RfSDUyl9wH+if5aZWpIFPMVuJHKxYtWLT6HorZEk+ujdMbqCf08jKfILkHTXrFIn5pu4VCCJs8iESRoqvzcV6R8MnBplFIXclannAvowi92KeUyaFs7BOKyjPSfd9/3WkRjIPzvhMaGv5y8VaQxAyVnvEZjkSr5Blg3a+CnJN2Ur+U7g+1go+ljq55IB70Y4NCpoPM9fxvIkICXHShxaXhGrtnOT0vtp2WXkGAypAoxnBYd3mdLyrI52+LKzGwiS5s1pwr3SUKH5c9nVT9HoJmfxBn64gblujN7eAd4bNZqxC+WVawcJE3SV0c7tu7LsD3mFA+tRmSrmnF1abn3GcXa5gJBiZTvd8VnB5zGMaZD0t+UKrGUjyxUNrjyEUFF2lMwx2/f/dcKkrny16C1zQy3O1XeRWhPm8VmeMpHiBpTZq9x4X/yJWp3HDPbbpMC3lG4OK9izPEZ3Ia/J5fXaLcJVqNS+WyqROZkhImEi5JJYHOjRh7dCHkd9HxtgvrpnFVtnhFTXoAST2tU7dZY0tELUVvLmuUlgiOXvzligHS53wXas6FEo7PVQIQ2cweikc/ntd6gEEfPljXfFoFyF6NZmaf+spWWtdH4TlZXBqf2PVyucKtE22/T1CZl6vKZS2zzjl9FKL6xZTfBgg2yH9izwlA/wC7+IwuMISZeNV1cXJDv9QlgQ==
+    properties :
+     x : 6
+     y : 106
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292574ea21c5f1b0
+  internal_properties : CAAAAAgAAAD8PUC8W+mD7qld2zw8sFo/Gywlf7OlX9NG8HOtGH8CLUBIeoFV43n94xvV9f7gFAMptXYK/xnBFTkcX3cIWf7tdiF1lQBV0tYWYccq6EqB/H71fZTHX7flp1RI1zkLzAyWtjRBbA3NMWgQdGIIyVUzWU8MNTJuf+ljwnyLlQEOt7r3uCV4a4pqGFy4n1IVYQhTeclaSSv2lGKgqgCqGuEVjdNre9Zw84izzzBF0vCjsCu/pzSueu7aWZTpQYN5DnJx/cb1Vi9OQh1+c4x52mmQdhfzm+z99mRLBLW4dekD
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABom/DeINZuT52vt6g7tMEcR97ToAW+dmODPlj3DLt/pACdQfxGqNQUgfGawrBh6yluKyXv8dHdBZn/mYzkqYxC1mSahgk0vJnKQs6qpDxmbeQVoPJmqk0yZhTtkKvcS9g=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure WinDevMessageBox( szTitle="Test", szCaption="", nType=1, nButtonNum=1)
+      // Alternative window to the standard Windows MessageBox.
+      // This window is added to the project if the option 
+      // "[] apply the theme of skin template to the system windows" is checked.
+      // It is used by the following functions:
+      // -Info()
+      // -Error()
+      // -YesNo()
+      // -Confirm()
+      //  -Warning()
+      // -OKCancel()
+      // Parameters:
+      //  szTitle:  Title that will be given to the window
+      //  szCaption:  Message to display in the window
+      //  nType: Dialog to emulate: 0 = Info, 1 = Error, 2 = YesNo, 3 = Confirm, 4 = Warning, 5 = OKCancel.
+      //  nButtonNum:  number of the button to select (for YesNo and Confirm)
+      //
+      // Last code review: PAD 03/24/2004
+      
+      global
+      	// Width for the dialog buttons
+      	// (Calculated according to the type of dialog)
+      	nBtnWidth is int = 0
+      // margin in addition to the buttons for MinWidth
+      constant MARGINBORDERS  = 20
+      // margin between the buttons
+      constant MARGINBETWEENBTN  = 6
+      
+      // constants for MessageBeep
+      constant MB_OK              = 0x00000000
+      constant MB_ICONHAND     	= 0x00000010
+      constant MB_ICONQUESTION    = 0x00000020
+      constant MB_ICONEXCLAMATION = 0x00000030
+      constant MB_ICONASTERISK    = 0x00000040
+      
+      // constants returned by MessageBox
+      constant IDOK     =           1
+      constant IDCANCEL =  	      2
+      constant IDABORT  =           3
+      constant IDRETRY  =           4
+      constant IDIGNORE =           5
+      constant IDYES    =           6
+      constant IDNO     =           7
+      
+      
+      
+      // implement the message
+      STA_INFO		= szCaption
+      // implement the title
+      MySelf.Title	= szTitle
+      
+      // implement the buttons
+      switch nType
+      	case 0 : // Info
+      		// make the [OK] button and the "I" icon visible
+      		BTN_OK.Visible				= True	
+      		ICON_INFORMATION.Visible	= True	
+      		// the width is the one of a button
+      		nBtnWidth					= BTN_OK.Width 
+      		// Value returned when the cross is clicked: OK
+      		MySelf.ReturnedValue		= IDOK
+      	case 1 : // Error
+      		// make the [OK] button and the "x" icon visible
+      		BTN_OK.Visible			= True
+      		ICON_ERROR.Visible		= True
+      		// the width is the one of a button
+      		nBtnWidth				=  BTN_OK.Width 
+      		// Value returned when the cross is clicked: OK
+      		MySelf.ReturnedValue	= IDOK		
+      	case 2 : // YesNo
+      		// make the [YES] and [NO] buttons and the "?" icon visible
+      		BTN_YES.Visible			= True		
+      		BTN_NO.Visible			= True		
+      		ICON_QUESTION.Visible	= True	
+      		// the width is the one of 2 buttons + the margin 
+      		nBtnWidth				= BTN_YES.Width *2 + MARGINBETWEENBTN
+      		// to select [NO] as default button
+      		if nButtonNum=2 then ScreenFirst(BTN_NO)
+      		// Value returned when the cross is clicked: NO
+      		MySelf.ReturnedValue = IDNO			
+      	case 3 : // Confirm
+      		// make the [YES], [NO] and [CANCEL] buttons and the "?" icon visible
+      		BTN_YES.Visible			= True		
+      		BTN_NO.Visible			= True		
+      		BTN_CANCEL.Visible		= True	
+      		ICON_QUESTION.Visible	= True	
+      		// the width is the one of 3  buttons + the margin 
+      		nBtnWidth				=  BTN_YES.Width *3 + MARGINBETWEENBTN*2
+      		// to select [NO] as default button
+      		if nButtonNum=2 then ScreenFirst(BTN_NO)
+      		// to select [Cancel] as default button
+      		if nButtonNum=3 then ScreenFirst(BTN_CANCEL)
+      		// Value returned when the cross is clicked: CANCEL
+      		MySelf.ReturnedValue = IDCANCEL	
+      	case 4 : // Warning
+      		// make the [OK] button and the "!" icon visible
+      		BTN_OK.Visible				= True	
+      		ICON_INFORMATION.Visible	= True	
+      		// the width is the one of a button
+      		nBtnWidth					= BTN_OK.Width 
+      		// Value returned when the cross is clicked: OK
+      		MySelf.ReturnedValue		= IDOK	
+      	case 5 : // YesNo
+      		// make the [YES] and [NO] buttons and the "I" icon visible
+      		BTN_YES.Visible			= True		
+      		BTN_NO.Visible			= True		
+      		ICON_QUESTION.Visible	= True	
+      		// Assign "OK" to [YES] and "Cancel" to [NO]
+      		BTN_YES.Caption			= BTN_OK.Caption
+      		BTN_NO.Caption			= BTN_CANCEL.Caption
+      		// the width is the one of 2 buttons + the margin 
+      		nBtnWidth				= BTN_YES.Width *2 + MARGINBETWEENBTN
+      		// to select [Cancel] as default button
+      		if nButtonNum=2 then ScreenFirst(BTN_NO)
+      		// Value returned when the cross is clicked: NO
+      		MySelf.ReturnedValue = IDNO								
+      end
+      
+      // calculates the width and height of the dialog box
+      ResizeDialog()
+      
+      // centers the buttons 
+      CenterTheButtons()
+      
+      // emit a beep (like the system)
+      SoundWarning()
+      
+      
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+   -
+     type : 66052
+  procedures :
+   -
+     name : ResizeDialog
+     procedure_id : 1499575491988094686
+     type_code : 14
+     code : |1+
+      procedure ResizeDialog()
+      // Update the size of the window according to the caption
+      
+      // min width: 
+      // the one of buttons + a margin on the sides
+      nMinWidth			is int	= nBtnWidth +  MARGINBORDERS
+      // max width of the caption
+      nMaxCaptionWidth	is int	= 600
+      
+      
+      // dimensions required to draw the caption
+      //@@+10: Additional margin
+      nTextWidth			is int	= TextWidth(STA_INFO, szCaption) + 10
+      // the caption is not allowed if it is too wide
+      if nTextWidth > nMaxCaptionWidth then
+      	nTextWidth = nMaxCaptionWidth	
+      end
+      // force the width of the caption in order for the calculation of the height to be correct
+      STA_INFO.Width = nTextWidth
+      nTextHeight is int = TextHeight(STA_INFO, szCaption, tMultiline)
+      // height not less than the one of the icon on the left
+      if nTextHeight< ICON_INFORMATION.Height then nTextHeight =  ICON_INFORMATION.Height
+      // center the caption in height
+      STA_INFO.VerticalAlignment = vaMiddle
+      
+      // Width of the window
+      nWinWidth is int = nTextWidth +  MyWindow.Width - STA_INFO.InitialWidth
+      // the width must not be less than MIN width.
+      if nWinWidth < nMinWidth then 
+      	nWinWidth = nMinWidth
+      end
+      
+      
+      // Height of the window
+      nWinHeight is int = MyWindow.Height + nTextHeight - STA_INFO.InitialHeight
+      
+      // center the window in width and in height
+      MyWindow.X -= ( nWinWidth - MyWindow.Width  )/2
+      MyWindow.Y -= ( nWinHeight - MyWindow.Height  )/2
+      
+      // Update the size of the window
+      WinSize("", nWinWidth, nWinHeight)
+      
+      // Update the caption size
+      STA_INFO.Width	= nTextWidth
+      STA_INFO.Height	= nTextHeight
+      STA_INFO		= szCaption
+      
+     type : 458752
+   -
+     name : CenterTheButtons
+     procedure_id : 1499575491988160222
+     type_code : 14
+     code : |1+
+      procedure CenterTheButtons()
+      // center the dialog buttons
+      
+      // start position
+      xStart is int =  (WinInWidth() - nBtnWidth) / 2
+      
+      // For Info/Error/Warning
+      BTN_OK.X			= xStart
+      
+      // For YesNo/OKCancel
+      BTN_YES.X			= xStart
+      BTN_NO.X			= xStart + BTN_YES.Width + MARGINBETWEENBTN
+      
+      // For Confirm
+      BTN_CANCEL.X		= BTN_NO.X + BTN_NO.Width + MARGINBETWEENBTN
+      
+      
+      // center the buttons in height
+      // (they are all stacked but a single one is visible)
+      ICON_INFORMATION.Y	= STA_INFO.Y + (STA_INFO.Height - ICON_INFORMATION.Height) / 2
+      ICON_QUESTION.Y		= ICON_INFORMATION.Y 
+      ICON_ERROR.Y		=   ICON_INFORMATION.Y 
+      
+     type : 458752
+   -
+     name : SoundWarning
+     internal_properties : CAAAAAgAAAAJrVWztkC9iFOpBn4ccF0FNNuP+mf+E1wJO9/pYE7U3NzjtW9ag+yfy1hNyjDsYIl4mqgRHVpeQeZgTFBdI5zXWv8NoJcZcfndr7ijv/38x1YQS/liUFT3COYm9H3uJOl0SnzWn3xHz+QK/e9UKbYfd3JGPLMkBezSaqBgoPtNUoGhQU+FGSQDBcMPh/ZERCKcmA==
+     procedure_id : 1499575491988225758
+     type_code : 14
+     code : |1+
+      procedure SoundWarning()
+      // Emits a beep like the system
+      
+      
+      
+      <if ExecutionTarget=WindowsApplication>
+      	switch nType
+      		case 0 : // Info
+      			CallDLL32("USER32","MessageBeep", MB_ICONASTERISK)
+      		case 1 : // Error
+      			CallDLL32("USER32","MessageBeep", MB_ICONHAND)
+      		case 2 : // YesNo
+      			CallDLL32("USER32","MessageBeep", MB_ICONQUESTION)
+      		case 3 : // Confirm
+      			CallDLL32("USER32","MessageBeep", MB_ICONQUESTION)
+      		case 4 : // Warning
+      			CallDLL32("USER32","MessageBeep", MB_ICONASTERISK)
+      		case 5 : // OKCancel
+      			CallDLL32("USER32","MessageBeep", MB_ICONQUESTION)				
+      	end
+      	
+      <else if CibleExécution=Java>
+      	
+      	Beep()
+      	
+      <end>
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAABSZcEqKMMqSPzAcxvuUIuAcvyqNsPEadYclsnHNpRCpXegBVqAD3wflet16sYfJpmmf8Zc6yubq82PmUhvtiyVqViRITtQiYmxfn1y7do=
+  original_name : WinDevMessageBox
+resources :
+ string_res :
+  identifier : 0x10f6cb0d07905c88
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,676 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_OrganizerTable
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_OrganizerTable
+ identifier : 0x2388cb3426cbdf79
+ internal_properties : CAAAAAgAAADA8ZF/mBqVSaR8TmV2Xdput64pfOaPEo2viUnC52jDH+uQwfaSvFNqsnffCU+dc26E18E4WB5DNezh5j9K7zjb9xa+IIMisMmawlmCki9949AzwCci2W4TrzRfQgcR/DD08+/0y8ZKcEzA8eLwuBnMBvh87bxvIcI9Hfy47q9xCkHGSRYw4Klfp+M8W5pLqZOfxx9CY+wW/B5a1W738xw8Kh5+Qyvw0K+yYmgwJQ2ivzdIve3WaalM/TBaze769mjqkNf2t/pgI3f99SvvPGd7sPuHInCFLZfhdLWtyZmQzopg2I5sgDnJJdWr6qHqEOgkRHkWsYJTs3oe/YCRF9zOWZ12cpAnuzEmyAyT3wKiyuFF1PAivXKCAItZyG/c/J6MuSWWu76/IkmGSPSIwvwW5EfN8SV2zmFsI2UhFdWBOLXzCZ8F61/pgDl3EwpZKLNxWlU9T1ZR/Mf6wj4liTw4/6K5KSOEaymf0BOT7bHVg3vArVLW0cjuH1G/nvt0j0DpeOQyN4eULq33q59NwbAOvez+4hEtJhbj5Hba0GOdWu2C3HFJhQyEY1iUNCfPA9Q8yJPXN//atkHYkVhA/Fjit1RNM4+zkNaw09ltzJm7doue5L2ZRegiwbW0maO3Eq3kgcb9KU06fNdn92KUxmYz7GvQuERNcAFpkXXjxmvsmNPgB102MRU1cJlwNPQSsl479jMkMOWC2/B5lwrpW285uUOSlyFFzuBEYUVc4F5anpPQoQlXrVQpRzJUs59FLW+5UIvwZmHMxxaRKmnkGuxR1ncQIk1zccLeHII9x0UZMGa50oz4UwLgx0HN/oYStBmDokxrN1UGmFX3sSuusGyA/ckB0fU343Orwiziumb1ojLKlK6pc7ICMGpGL6UMxQ/Hz7WHqNF9s3pBKb18stzUyaMJWGjSJvbvO63LK+ntFf5grZo=
+ properties :
+  width : 1018
+  height : 773
+  widthClient : 1016
+  heightClient : 741
+ controls :
+  -
+    name : ORG_ListAPT
+    identifier : 0x2388cb3426d3df79
+    internal_properties : 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
+    properties :
+     x : 20
+     y : 147
+     width : 976
+     height : 516
+    type : 76
+    code_elements :
+     type_code : 107
+     p_codes :
+      -
+        code : |1-
+         procedure AvantCréation(aptCreate is Appointment)
+         
+         // Open the input form
+         if Open(WIN_FormAPT,CST_CREATION,aptCreate) then
+         	//Refresh the appointments in the organizer
+         	DisplayTasks()
+         end
+         
+         return False
+        type : 135
+      -
+        code : |1+
+         procedure EntréeEnSaisie(aptEdited is Appointment)
+         
+         // Open the input form
+         if Open(WIN_FormAPT,CST_MODIFICATION, aptEdited) then 
+         	//Refresh the appointments in the organizer
+         	DisplayTasks()
+         end
+         
+         return False
+        type : 136
+      -
+        code : |1+
+         procedure SortieDeSaisie(aptModified is Appointment)
+        type : 137
+      -
+        code : |1+
+         procedure Sélection(aptSelected is Appointment)
+        type : 130
+      -
+        internal_properties : CAAAAAgAAACYsXrQExIcnxscSxjtNtDTjObhPYfu/5YOHjRNrTp8pd4wv3KSLk7UQw1tNwp4knsl0sBLzBvsWvwhk7vzZhzDwlSU5Qmlv9fcwC+hvovMS41Vs4QLK/9U0uC/gHpffOcrqAxgQzNd+oINv8zQjOj1dsFSI0oFxeXwMu3h8i4VX+D/bBVSfgG20damaSA0D03c
+        code : |1+
+         procedure Déplacement(aptMoved is Appointment)
+         
+         // Position on the Outlook appointment to modify
+         if not PositionOnAppointment(aptMoved.ID) then
+         	
+         	Error(<§$0000§>)
+         	//The corresponding Outlook appointment was not found
+         	//Cancel the move action
+         	return False 
+         	
+         else
+         	
+         	//Modify the Outlook appointment
+         	mAppointment.StartDate	= aptMoved.StartDate
+         	mAppointment.EndDate	= aptMoved.EndDate
+         	AppointmentModify(SessionID)
+         	
+         	//And effective move in the organizer
+         	return True 
+         	
+         end
+        type : 131
+      -
+        internal_properties : CAAAAAgAAAAIwepg48Is7yuse2hdZoBjvHZRzdeej+ZeLiRd3SpstU5Ar4KiSEoAb8FZT4YIPpM5ugALYPv43uiVdyu/PoCjzoykBdXt69tCCrGz6HkeVeuPdU49ibUKgCIJkrQVNimxCn6KbUlr8JBf4fwAfPiF5rFCMzoV1fXAQv2Rop6l7xCvnGUCjhFGoea2GZCkn91M
+        code : |1+
+         procedure Redimensionnement(aptResized is Appointment)
+         
+         // Position on the Outlook appointment to modify
+         if not PositionOnAppointment(aptResized.ID) then
+         	
+         	Error(<§$0000§>)
+         	//The corresponding Outlook appointment was not found
+         	//Cancel the move action
+         	return False 
+         	
+         else
+         	
+         	//Modify the Outlook appointment
+         	mAppointment.StartDate	= aptResized.StartDate
+         	mAppointment.EndDate	= aptResized.EndDate
+         	AppointmentModify(SessionID)
+         	
+         	//And effective move in the organizer
+         	return True 
+         	
+         end
+        type : 132
+      -
+        internal_properties : CAAAAAgAAAAMxe50h36YSzd4h8Q5YqQ/mOLNieMKn7p6UkAZkaboEeLMaw5m1OfHGy0Vj8pQctO1CjgTPAP84vypcyuL1hRT+kRUNfEldxdQfGMVGjeAJ6kpj7jPDzOQFszjdEabcPOXXMg0twcxVoYIcZzgZOitrtkK+2rVfbWoIpldRnqx63xzyFke2lUKZTpaBaSgm9lI
+        code : |1-
+         procedure Suppression(aptDeleted is Appointment)
+         
+         // Confirm
+         if YesNo(No,<§$0001§>) then
+         	
+         	// Position on the Outlook appointment to delete
+         	if not PositionOnAppointment(aptDeleted.ID) then
+         		
+         		Error(<§$0000§>)
+         		//The corresponding Outlook appointment was not found
+         		//Cancel the delete action
+         		return False 
+         		
+         	else
+         		
+         		//Modify the Outlook appointment
+         		AppointmentDelete(SessionID)
+         		
+         		//And effective deletion in the organizer
+         		return True 
+         		
+         	end	
+         	
+         end
+         
+         return False
+        type : 134
+  -
+    name : BTN_Refresh
+    identifier : 0x2388cb3426d4df79
+    internal_properties : CAAAAAgAAACHw1uXgiWWk69W7ZZ9fCTMAGqcV7EZ9pUYjpmNq9XcIbelOtm/ktVn4bNf6qiZj+zBPVImwcWD35fMCJOqDscu5j93v/d1wBL+2w9p+cTZni7TniHgoYBCnswf1lDnNxJwqr+BdUjY7ryLSyGCHPDPmzbxZXqInXnBIo50GEr9caEB7w8Mv7RJdUscA1cduinKEWEvUaCHEiqVTvhffPsgfg0NaAgG7cIBw1kDDMP41JONfe6w9jizfz+78Yv2lcFQ33cX+AXNXXs8VZiefS5ygYk/Z6+8fvvR4XYiZERm6fVypPSfpMLAP414HsLMAGSmcMLpF7XQLCM3M93xHhcM4Q+Nrrw3sU1CdyGngxS314fngsKvkDwzN20GBO+cwU/hxHJYhLGBaXoA1lOCfVlm6lj6YjDbU1zGSTnpO67g65quwsX6kHqB53Ettf7eq4ZD5ingeVTye24PR9Q1hnG4br8OSvWUgnolSD5qBTof1dB/1ET/rl375galdAv3JFU/IPnZiEJeys69VO+As/kEJXYqJyRNYfIjk72AzMU7Z7ubcXX8jOIk/4VKSxKQh3hiDlr692SgqK+zBbQrymukI8TSoJLDLPCgQ9Kk832E3ULTHWcSUAmZl4u1Z5zJyyzzIsgmNeJ6CsqfGQHU9t+7fAhdGCFaK3hlHqZzfxTx8b90VL3Zbzn9E1tZCZ7ad6VrioI=
+    properties :
+     x : -8
+     y : -58
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         DisplayTasks()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_EMAIL
+    identifier : 0x2388cb3426ccdf79
+    internal_properties : CAAAAAgAAABCyJljPO20lAnBPI6QjTKhzWCU1mVQNoidrGLHoVxrcBKH1bQGbEzKDB8vNnAl5nmmhoB+xo+Q1e+6Opzv/EACLr/w6Iu8ZThjscuEemLiiGRxjE4MEUF8o1S9MpJ+HhaxiZZfLIBg9NsIXRDrEzBQDoIHCUNJFMqhMOP1+KC+vNqXdaDugvHgthGLnwm+W0YBXiRPIHkASLuVY8pcyrk99DeSdizVwLOjbxQShwjaMheWcS47aJdnhuSHwxXPWS0ba3/BYQ7cITtrF2XzXdtsAEOr+/EsVLG11mCKzKWtDec9bPoopTkRJ3dKCfhH+/C8h9c6T4zRvhApKLDhtj5NwF1g65BNyklKInjVt1Vpvk0xPHmmVEdb4PMxJC7IT9kVwHM1/jNtfSfWPkvg8YkZ3Tzq6CIF6pKNJgb9FUZCDR+prpabeaLKV1VSqik6r3Mp+y20nKkIPwsT0CddKD7hGIoYxJgLNOpmhTtFaTtdFtcLuksjefHV6TLo9wyATjQvxkyPMLinfMQ0+U6aRB54zqqMx9BDkbKSjwPg0JN+pD/g3rAP/5G3Ce/iJQnFKIKj+Ut6d+sWlEQX/RxVUAZBgHbHdvONSOpvaCeA4w1odLwNG3P0n4fXn5kDldQ0AeQrxH4aXsDy5N3iYIX6Svf4sVb+wShvr7ChdZTpncGXvS9eYr8iVOGGCJxyHD5wBy2MIR+WUPh0+BlLZp8cFuOsEbcK3FVw3Gs5xFO+tagmwdoE/k3YVH0tukaC9+pIYXChMS9IO2mrNrkAyFHyfASRIE3B
+    properties :
+     x : 799
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAADe1RcBfYJDGX8ZK5iKpRQKH8w+g1snwbhVUoDCQkAnTWKorK1px5l5p9FG/KbRZVhQ2oY9HEcbicrBBKlIzy4Rgzr0wn4tM6XUKmWKudkjheHQRfmmr0SmApef
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Use(WIN_EmailTable)
+         ExecuteProcess(WIN_EmailTable,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_CALEND
+    identifier : 0x2388cb3426cddf79
+    internal_properties : CAAAAAgAAAB9Q+1QCiyfy5ybyuUuppqgerRQ6Lndr9opsdfkhoGLfQtN4d2WH+MQQuzRPM0PxXnaKRvROFYQBOez8ZbvB3TiA0yL0pCOc01DErwlVJg3qPtHMcbELelU36eQcVqRDx8kQocuHZr8KaCGQXvK3/+5bzqGG87GAiifZUzd0jWUvMd33ood0S7vyMYWkpq8VdzpLXddfqRwrbQnZcDE+TLysOxPI7Y9MXLk3VjbYHVwKrdS/YMcyUiLEGCahKSNwUR+llta1fq/ZS3qYCQbCkEKIkc+9LfFNzBEFW/L0KwdeUZuPdPFTFbsSA6oVokJjdi5jSQpJ1nAbRctHAEqEoEHY7vwWERi4cCzjunkMYiWaInDbX3Y0wdfJGKSK93035MLtUkDBPGcHcxLVyJ9sJw5QgN/LdgHUMM15yy9jaCo0a432XTtRbaJQX+77PTvqs9mZDcpsbGtPRdIz9JBQ/ofOd4FW1A40dzJINKSXk6Bzdd7lvekitEFARybCPtGOrElcrKiizZ6UiwcKOPfnTdGF7FKL2EyCzMfV2rf/tChKhyZ7rDA6F9SZLzYy8mXZrNJwCrPUbISwW444+N7F9EVAF1Y+T8sYcPfOLjVKEnS08IyTwldNsnYXr006bf5OT/64WDnSPxhq+RgrY613Yw7VR9H9pkr5+cV/6Skn5WYlQzxQvlI5+zl5WSBaV+b6Vg4s0iZDH958SEi+QZb7yThFGKYIlwPeWoIBieCju9CPHGa0arNVovH57VPLIO0saY+OUCoZuQVxznjT645wcFmpwXAlpP8FTXT
+    properties :
+     x : 849
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAADe1RcBfYJDGX8ZK5iKpRQKH8w+g1snwbhVUoDCQkAnTWKorK1px5l5p9FG/KbRZVhQ2oY9HEcbicrBBKlIzy4Rgzr0wn4tM6XUKmWKudkjheHQRfmmr0SmApef
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Use(WIN_OrganizerTable)
+         ExecuteProcess(WIN_OrganizerTable,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_CONTACT
+    identifier : 0x2388cb3426cedf79
+    internal_properties : CAAAAAgAAAA24fBHYCOJd46d1O23urod+Ekvvt1P20PCkGeB/cUnFaB2Epds85C3ELMeaZPJ1UCpT/csEK3+/gbbAW4JYXx7YjdedLrXusbaZMAlS/D0cSSKy2fCr7iOptN3omXn3SjpPHs1Bms4+ZfE/nCBWvxUIx2Pphc0EvXPFrep4nkJm/DjAJ54t9cxVTn3vsySqFxzmkWvqH2EsN8CbP8qapbfHPe4NUwRLK9I6FC9YKoBaaxwVew43serniqxNqlKq+TShquhXfTaxsQr1jFjH3buAqD3d4agx/ddlBegujrHAdIwImonXiFCcjMWPzM851sI352rms/V/ynio7T3HI7fOPP4PeTzAvmBL6Ng36M5HK8iy3hNscBWgmTkHTCEvsgD2GPhupielibevfNPTUbCuty9tgvGVNZU9sHTnDnol3JJJD5hCy0ICYtfT6+tR3t1mcyosu02C1jDMuwa9SjqoOajWRJK7dpYlyQ1+Ok4ZHhl4u5JZrPO0CKxmwBB2CkLzPqrVohZteFevUgnMKlR+XDDNwecQ4gtuAP1lYhYpY6UnHbNd3loeiOhxxLBkfKNT/a+i3XbfyIiyClzH92MkwKF3W100fw7usCAy18xm6I0iwD4KKnG2F/w/AA1tQ4SAl9RanURcb5qqGrVcqYBOdWCLo9lzKJfF9Pc4QeNsG2fyl5/K9/KMwL2os40sPYYOgQhVnbcIxssnRdsJG9UPnBF5ZjFcrs5sZ1+DoiJk4lrbZGfdAzh6fcEGvDGV+S/JRFXCsYkJ1TtR3TcgJhm8WHfc5v2TLf6MiiMtbM5
+    properties :
+     x : 899
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAABvMM0HJSwqTcvysv1N1MY/DYVNkfdn54XBX3+N35E+QmOu6Z4Wrr1L/mG6SHhusKZ7wZxkGVFQdsMw5VJEfijMEtWWOzSLyNOCT6aN8EPRnZq8/MTvcpyQIUA0dyRolg==
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         Use(WIN_ContactTable)
+         ExecuteProcess(WIN_ContactTable,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_TASKS
+    identifier : 0x2388cb3426cfdf79
+    internal_properties : CAAAAAgAAAAJ9kELvowJZ+ODeuv8FtmQukvPPnbNu+xHxZagfyQmiDETO5dPkaW783XTjEPeaFiXvUWkimXlzEQBQHz9j3/lHtyXA6GTf/G50bwTKn2zDro+16Eerm3T4kYMfsA4qINMvSvgwn8yePBip1ICxixAP669O+VV7kp/g4aSRHV0XXO+Mns9qhikwjO0EX3Sr38Zne9XbhVf+eKSJe7jENarlEamzvyE/LiOIc5aUG1ssrxcaVGKIxPB5h5drEHvFDnh2DJzD5dLiLQMlvFEW1otMLB+zBMu5CZKyX3m+flgbIRIHz+3uaCpTGnDJzE5maS5EyPl9K2ajHYM2qqUtDH6Rct7qOy+o58qpvDtYE1gqLUArvTBANEIQW2sRSJ/+zRTQs+zDG5gt/7/c5vZiima4ar4wWjWL7LJ1c9vPloyz0zwazihD8s3BZSbiKGNCJ6s/70XCHlpQ39+AJJud5D7ec9z1ZuKSbhBHPzb6ZZZjHINRKPzmAZcHPz+ThO8IzttZITVgGDZ3YAFqZ8P1bjJyXuPIFjyU9jjgQFM9Kd3C531EpBXNRwmpfw2KBxvBxq1BAhIEsCJmCzxp8DcpAB8WGLFOHAU6LJfEjF9ESNwqcUVEdJJUPb46yZ8XGpt7IaPisgBj8bFsaCcciT6ewVORjtZZ9j4EDMZ/A6JWVvW5gth9/iQw7mGWYTOHlzF2nJuYcnVt4oRRs513GaSi+HRqK/0HXhoTeRu6eyaSWO0k9bO6V7hpnUeOTKK5Te0gH23pamzcTjR8oRHsTue9W79
+    properties :
+     x : 949
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAAAnlRBbvXT/Ekbjdpb3QKsoAIRZjZ1xiQXwGvkoL23gE4mepAxNTayNaYxbDkODdq0f2lLg/EEeH40nWctO7utVtR4AVVv6ar3Y60rWoZTt+ma+v617s/zBEqP0rcg/aLL7GsXvOKbA2+XgQpj8
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Use(WIN_TaskTable)
+         ExecuteProcess(WIN_TaskTable,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Close
+    identifier : 0x2388cb3426d0df79
+    internal_properties : CAAAAAgAAACBS+iigFPArMXxcC8+4lew0/Q3/CP52D6ILuTF7c3/O/DjHPRpTITIbIpFA9hZXys7KTEoy4RO4WMYKztQAmPIBMpUXfLVqarAnPN7XQzEz/ouDyjFhCf+As5S205/CYWfFDh1u5xn2Kjf/bkaLFah1DmfELaehqL83oh9Omk1SHy9j/inZ1hDhNEixw6azNW6vdZJcs7XjABwrIMAhJdm2bxHoT6A174b5hkNI4Q4AHJPIpnrQheVf+N+aSmEDXqsXYW8zxIo8bWMH07exdMtFAYAqlQvR98DpgY0psM8tI6mIYlRUvJ5V4/toRfF1QJ1ramNIkYgtfxrEY9qw81hpo8oEgbBvZQwfE0OzrmDwqK2r/RN6gfEaArALoKCDke5472U2kFlDXI7QMJFILIwKvLlow0vziPzDEpvoiS1Jwy/idkL0qxxwN2w8JLi0KnnAcmg1bNjeNzeI4x3OpG2jZOij295B71r79P9EyZpsscr0k0LWksos4nBDB0xb5L2jY3ZxcCqY52cyHJ5oTbtKQRtGbcTO8QOIwrmkKfCycoMs35OSrXz7C1/yaYxVg25lEHu/Hw06seHfjOoiyoeXpojckPDL0Dyg7UXQqiB/sUk6cg+4caHkXiEwy87ZtntSGMoLEvq2QQ2CVD8oLO8bZJLHv6UtICjtU/NZg8E+F81YWT5/M5IZZzf7zXrbZblYP+wvuh6DzawDrKyB58w6PFVxKM8/R6XZ3RG+kcxtIqHLMT2aZvJ9FrB740/hZz0QpR0wB73y51bvZc8wKnI8IU3MJ3OTtUKFH7OWt7Eb3NEXBHM/CCcifLeJ+0NLmoUSeBqHlsu/c5t5fGJV2zaKnxDxLyXtmppbyVh3+W5lLD8+oAEYVKzGS8h5JUSHakRqp5y5BFuCcwNSebCIVoWP5gZluiJ0yYRJS/9AQr9JRdKeapmM17Vw1DSoTeykpLZuhYqEWcRIBwZ5AXlupliqxxj3IIUZib3EQRmrf28nAG+2hcnrujQC51Pqv9HPgooviEuuxuc3TCIpg6LN0japD9hKRmGtjwNn8nbQm065l4ar38ZadCE/oFQXvo=
+    properties :
+     x : 915
+     y : 692
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAADe1RcBfYJDGX8ZK5iKpRQKH8w+g1snwbhVUoDCQkAnTWKorK1px5l5p9FG/KbRZVhQ2oY9HEcbicrBBKlIzy4Rgzr0wn4tM6XUKmWKudkjheHQRfmmr0SmApef
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Close()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_WD_OUTLOOK
+    identifier : 0x2388cb3426d1df79
+    internal_properties : CAAAAAgAAAB2tt1Y82STFgknW7yNzLGf97HQ/bxb88zf42m/WknEaB/0HxLJtcsX0bs/pWs9lo28glT2r+NjG3dAFl1/m2TtiBDk6pjWs7fbJyrsAQDjI3w6p1yk87/q6zTAnL2W5jRwpUtPK74DZqMs58Eity7e6XTRwSHXbntWEDHyMfjb1fUlFfYLlb7PFLPTVdMRjAtVMNNKgPR9Ro3ghPhtGa9q1kQ3TkJUc4I+x6ECp0LfWsfYyCmTOhHmXVwXMG8Nz1m1vzYS8Gs/GhLrStTQzOQqPC+p3myXVvjJ5vn0GgaxUvij1qNX76Ww2z51Mup3ga3uNmwhBCcI4ziyilGKtB4v505Wvq28yGdAkzBllDdd6Hqv+Jvds+TPpXCCUnx38UPwj/nJzeL3dFLxLSl63fvgXJx1s22tMjfULyxSkPhet+cRGnnHU1hkouIrQxvPBUz0KtnQ3Ru1EH3Qcx7XuskOgBaBJNsVateOf79R0F2I//PVbtbQKm0=
+    properties :
+     x : 20
+     y : 24
+     width : 187
+     height : 40
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAAAIDcVYZN0JsCKfeQufK+gaP1yosbN9DIXtNKqPPCOaoGB9xjlGk92S2pkbTa93up+U272sFG/SX49hLf4Va9IuRPAA22lXjYIJBBts7r73ozmyHiLiaMq4WWDQiH5iL9QW0+iZprRTmSjRkmVZDQ3P10dck86yClJwKszH
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Title
+    identifier : 0x2388cb3426d2df79
+    internal_properties : CAAAAAgAAACzA0+h8ZVSh8BhlBtBzjXjWyaF1TAR2F7eyBHEktZtRof7PP2qBYgY8hOhkmIzzT8h3VfkJ8WXxPZeFVCKIlw/gtthPtWjBe6c2wxFy61CCB4Wjr2ikHHyvYC7xjuGY2uaXsHaySDKp1RntwF4sTsEJ/KQOq7IEoBEB8uTMfYletzVn1d1xShfpJ78xaJRDHY1PHrTfo12TD8o4GpblkK84Pk4RmNw2uPU/qFCeIqWC46Unb1To5PIW6AZstXq9x5jzsS7m+g1FoLmG8HH/T/bjOt033zk2aOJA+/5vqR8lque12Ofgv2L4flc2aWYyRYcELM7fJqEkPqb6bWJvmbQiUW1l+/VyQWj1chse0Rzcv1HG+DbJVxAx6haPYW3qS90Wi35zpv00+BU+TdRd4bmYFDoqUAyi7Rd11b2BKRnxka9cKMaawPOLthTkADd16SIVn/A8+KVCpXI/t9hLbxchgDZoM7dO4Xgnf2AyVYYFaV5uLb6C1Z0zr4W/rODV+8Rj2+UEmTNNePALSOHXtLv7n/9Ib9x9KWboin9EkcBsFjDTkFcGBvVtgkbOmr/IgiysAs6qH3CTzbRgQCqK51LeCykXBPvKA==
+    properties :
+     x : 51
+     y : 80
+     width : 945
+     height : 36
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAAB9trTeqk843LrcaL/pQrHn0qHTqEw4KvMcTbroqvph+XSwgKN31VHH5YF0DtKiCvNtmcdy0diaDHFUmd6FqNeoPPM9CSVGSro5z5pdVD5EpJ4VArzhdA/zXzQ8
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+     templates :
+      -
+        name : STC_Title
+        identifier : 0x1557a72f0116aa55
+        code_elements :
+         internal_properties : CAAAAAgAAACt5uQOer9ILAoMOK/5smH3ghFDGNyoesNsvYrYuuoRCSRgcFMHBWEXtcFUjrJS2uPdaReioQjKPKEEye6VuMeYDMMNOfW2uiqpf8ptpM40lO7lUuyxpD+jD2Ts
+         type_code : 2
+         p_codes : []
+  -
+    name : BTN_New
+    identifier : 0x2388cb3426d5df79
+    internal_properties : CAAAAAgAAAAZCt19ru0H950kiWTaJcoid91ZvyRRVqIjwE4BNa2T/3w6yNXD5GEAORL9BZH2orikF+roIP2ZzYpXxoS/7h0C1hu8hArrUtaTZtoECZcwu6IpQfNLMU2bUI/jR9RMGhUfaJ4EVMIa/Pop9/L+qFBmFF5/fgndv5fAGBQt1bhSad/ahS0su9esnwqGUMHSbOy55L/4JtiVYuuNjU5ATsVTnQ/xtdpTTaBdrDUcvoHjZTh9S7ulVaPmyIV2yi+0xJKumKLmqSveHnN8RJvAcmNokgVXHnmQjTVH0tMrnLscLnW2btPu1H5VYQDhfzPLXXXHwwnOFDbBuHjtg6O/+Y1l+neS+6Os5f/svxX8w+MTNtRrW9+xDgMfyDl8pu4RaRmjuRpbTwT4WC5jQQ9Ajg6fO+OGBetvKd/tSeXbXuSMWGo9vnvaiW6fa4aXm/tZeDOgb4pQ8uzgQkzHvXJuWk1INlnIf+HE1++yqbVNjlQaO39RVQb5F/EIntao4GweeXM5tUWviiua2vlTjK4k5gBq5yoafpjUfrpxKXUzl9H7tRCJ6zPEfcfU+wKNcrul+WvNbULOjXatYi9Yn/n2JL98L63ELTyUpcxvSLcIDxbGtH6yRsg5tMy4Io3IS5i/fXTKhjYr8MEojdFKMVOOTr5xMeF+ECJ7lQ2IiuiUi2LYmE/vjU5/WGDX1OZ+Hh9H+IDu6l2zouZkgHi1lA0oxFOU4fZdAxxOgj6zMti2HZnGqI29BCNKm/dTS1TvYMNF8Q54CPsxHYNw6GIYoNpZ9xAm+S7wzXLBkaAtUbOiZSbMY68SpqF2CnWkffTg93ZwmfWjqx8KQMGQAzwCEeYjZ9CbU31a1eyNcnmEun2dB88IT/LuwXafstwWujhUmiTznc9f35DQluMe3+gVxhKZyaOBvmihhg3uWHM0FeykHSWtMvFBBYkMQo2ljlhqK6E5ZlBmo3zkhfzgwwQOJT248OHUY9xv8Lu/nm8Wx2g1ShJs
+    properties :
+     x : 20
+     y : 117
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADxw5QfuwTRBhEa15gEj45fmetu3BZ3h7OhGJOeGLXpsSv+oIANqj0R0pkPBpSqY5wpXNgEJgq1abGgC7xxTzsX/nZ3muqHl/lbNSXT3ykd5eS+Jy5DmsnIC4vY8/CYGIOCngKIJ5mMtLoczZY=
+        code : |1-
+         aptCreate is Appointment
+         
+         //Retrieve the period selected in the organizer
+         aptCreate.StartDate	= ORG_ListAPT.StartDate
+         aptCreate.EndDate	= ORG_ListAPT.EndDate
+         
+         
+         //If there is no selected period, pre-fill the start and end dates and times for the appointment
+         if aptCreate.StartDate = "0" then
+         	
+         	tCurrentTime			is time	= Now()
+         	
+         	tStartTime, tEndTime	are time
+         	
+         	tStartTime = tCurrentTime
+         	tStartTime.Hour++
+         	tStartTime.Minute	= 0
+         	
+         	tEndTime			= tStartTime
+         	tEndTime.Hour++
+         	
+         	aptCreate.StartDate	= Today() + tStartTime
+         	
+         	aptCreate.EndDate	= Today() + tEndTime
+         	
+         end
+         
+         // Open the input form
+         if Open(WIN_FormAPT,CST_CREATION, aptCreate) then
+         	//Re-refresh the appointments in the organizer
+         	DisplayTasks()
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Modify
+    identifier : 0x2388cb3426d6df79
+    internal_properties : CAAAAAgAAABfiZtYpochzy/qfL6WrDPM80Vu9k7Fiz4f4Z0DaEZwpw0ZDBm/uSsGVNQVjXo8ux00NIOFwR8hL+ALA+8LaOudMEIrMvDjpHY7GO0yx+SbwQrFgXj3uKqd3nob+7hVx4jDBaDuN2L/qZA8+dGA+dW1jGHuwD8zkA6hSgO5OmpX8j5St65bGTzTTZehOdel3kLye7bgBuzmaMMYmNGLR5ueB1Ve2C36wmYbqkqn9TNRcQx0Ztbzj5uIUmYZl/gWH9mPZPYzpRhX5YvZBE4haATKC3Xo56WDVLbQIqJE3lo1F1g0CDR22/4ejv3kvknF/IWj4d/jzlkwMEMw+N+S7aprD0ZJWOE4GSwZxY/hSfS+eq0YQd8k9hP9MXIuD/0w3u/PQpuLK15ysk39Vu84ZTk7ioTpityV0Xoz6cBsRhM50FoEiEPUPywJ/Ozml7AUdnkKPmrvaB0Gz45JXW25q/YEdqdAx9acVtMUDTHuQ2DkgxjJa3I0MMKM5Gml546i4LCXbTpGlPHg50WDAZ7/m11ZztwFJwgEqlL/Pqh1+XWaOii8aLmuKzh35Yi00yby9JfgFgiz1PjiWGjo/YhM/Bk3JZwiRLm/OI7NDHDlvwTEa4dDBcgqclFVpYRB2QTYcwUDSnsfJR7akBccl4yS5GSWOL9C67clcSRRuiWNP0hHmd5KGxjjn8PXFVTPUJS4OY/5626DJSPjboCPei0bd6CAQyTovxPH1Xe7bsHv6T7RM58L/YBxym35k6TTkqicRDnr7IVbswxtzQc/HdTWaTYT2eRsKovpcDOU/45naOuziP4u7EMq3cWddMdthRAX19YulbKjXE7TOcdJUqk9nMwq2A9ieSHHGRW3U3DMtSOIvGHX0dN9np88p15K2UJoQBt3slAL5FlOFjry+4UwC73XVPdsoT9FAcu/SRa8Wk5YBAfg3z9V4pl2fSYOwd5s+wkV97iyJ9FlhxqtKuZ2Q5aHNGzRgA0mdyqTsqP4
+    properties :
+     x : 106
+     y : 117
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         arrListAppointment is array of Appointment
+         arrListAppointment = OrganizerListAppointment(ORG_ListAPT, orgAptSelected)
+         
+         if arrListAppointment.Count <> 0 then
+         	
+         	//If an appointment is selected, open the modification window
+         	aptEdited is Appointment = arrListAppointment[1]
+         	
+         	// Open the input form
+         	if Open(WIN_FormAPT,CST_MODIFICATION, aptEdited) then 
+         		//Re-refresh the appointments in the organizer
+         		DisplayTasks()
+         	end
+         	
+         else
+         	
+         	Error("Please select an appointment to modify")
+         	
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Delete
+    identifier : 0x2388cb3426d7df79
+    internal_properties : CAAAAAgAAAC19/ojL+ZIMZuRZoMCiufT+FQ2s3DnshfVne9Ad8WNUnjm4Qt7x/qxlegsVBy1K/phTebEZc+w8K13LEqhTc0pCU7YowXtgWpo4HgPOJ7sCHAJZDZ6gvoTXByLmQ82JWD34i6dX7dhY/VtbpqFQwxL9UWl3ZRYclX1FS0CnvcrY4hnJWuN4UoUvv7gs0zZLqscveN71s9AzFZNmEIzdDZ+7oiJ2G+/1J0xSghqqc2/zV1+Cy8/esB/1HXIqek+MD8M9Ik3hGpiRbSaJKJ8U9oTN0oP0v7RCsE8LDbgKzXb0Wbj/2RMBxGHJ65EJup6N3P8UJlKXJD1+ZIwG7O5B/v8DNNUl1FUd2hTJ499XPdwfl7OODz5RbH5sr2EViQgk72kkquwqZGUIGeIDXP/Zq9gBY8AxkOvc/mUev8nCNv6HiXsh9OqAMZ9gZQScuPIoDWdi5OEyTKOimGugQWIWovMN3R83RZIGonyFyR6zj3kcPbkmRc/31eUiFOGgLSv6fBIoYZjWA//RhjHsnfiNFP0Wjcf4Lf2oBDySVTuxyRvNvYAw+fQ/w49/Oa6EThXfDbwY4MIGFVQmIOcbAUw24WAkYhkxwCU8JYvJRNgx9mJV6fwy07yR56gf7nEBZA/wBvKauiCte6AzlBG3GAHcXBb29oSH+gTiYKCFIl9LEarf9Zx0p3DUSoTLmHU+/Gfg7Un5uyb+7zpfJZK531JKVvIipvJvytBhrRX6vPoUptLLcpjV9EvZ55JEQYf/yl1O5ZvBq+IgWur4JZW7wCUyLgTSCzpcgYZmC4JIDqDv8a0k9LXsn6aQlmNGStUoWj6XvyyQz/X6URE2VdOAGnu2/BZldzAuD2s6sZeuMAPjm+sWXAwHR829oy5gwPF9r7CF11TOVy9VYpsNE+46NFy+ReNzWTC6ZpCf6xYTBm9JlE8NgnkmBA8BnI3GTQHvqx8yPB8cJmWDfC/iyWOHNTPIu+4O0wq8K0zeiUxoaLlNfhQuNW6tg==
+    properties :
+     x : 192
+     y : 117
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACjqmKsN+Uu3clCI022Hp5LynwikOW78mVzrJKodAO3TwyBhe0qyc/bNDu8cXNmpa7jt00bdu/sD5JH28hZrRt+yKSSKHdsihiwIV8yolYpUE4Dpu6gLIqV2FEAKIyirTfA/FuvQWT4iyUfa2D9IHIuJVRoOAJ/rKSVNq63kwUsLw==
+        code : |1+
+         
+         arrListAppointment is array of Appointment
+         arrListAppointment = OrganizerListAppointment(ORG_ListAPT, orgAptSelected)
+         
+         if arrListAppointment.Count <> 0 then
+         	
+         	
+         	aptDeleted is Appointment = arrListAppointment[1]
+         	
+         	// Confirm
+         	if YesNo(No,<§$0001§>) then
+         		
+         		// Position on the Outlook appointment to delete
+         		if not PositionOnAppointment(aptDeleted.ID) then
+         			
+         			Error(<§$0000§>)
+         			
+         		else
+         			
+         			//Modify the Outlook appointment
+         			AppointmentDelete(SessionID)
+         			OrganizerDisplay(ORG_ListAPT)
+         			
+         		end	
+         		
+         	end
+         	
+         	
+         else
+         	
+         	Error("Please select an appointment to delete")
+         	
+         end
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x258182bce4e6ee55
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABGOd50DrSIrf+NVdYRHr96vfzJjtvw6RPBK4UeaC/JA9Gd1eBIin5IB2fszLqf55/HjIRAUsjMGA6kvFEvTi20dzX1y6sjCgeoILyEflJIU8pzBhxIiC8UBHJLclUCrb4=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      DisplayTasks()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : DisplayTasks
+     procedure_id : 1407598307771867001
+     type_code : 14
+     code : |1+
+      // Summary: Displays the list of Outlook tasks in the organizer control
+      // Syntax:
+      // DisplayTasks ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      procedure DisplayTasks()
+      
+      
+      OrganizerDeleteAll(ORG_ListAPT)
+      
+      MyAppointment is Appointment
+      
+      AppointmentFirst(SessionID)
+      
+      while not mAppointment.Out 
+      	
+      	MyAppointment.Title		= mAppointment.Subject
+      	MyAppointment.StartDate	= mAppointment.StartDate
+      	MyAppointment.EndDate	= mAppointment.EndDate
+      	MyAppointment.Content	= mAppointment.Notes
+      	MyAppointment.Category	= mAppointment.Category
+      	MyAppointment.ID		= mAppointment.ID
+      	
+      	OrganizerAddAppointment(ORG_ListAPT, MyAppointment)
+      	
+      	AppointmentNext(SessionID)
+      end
+      
+      
+     type : 458752
+  templates :
+   -
+     name : WIN_OrganizerTable
+     identifier : 0x1557a72f0115aa55
+     code_elements :
+      internal_properties : CAAAAAgAAADiOStFMda3Taut38xe2TheWwhKH9ejfcRpvmz+rjyDmdaMQAGNW/2dc8PIzMapDXCSTnKBmMOfDY7FWN0EAzJVB8YIPvKxvzGgZiHWzbXPMQ2E8U1S+4hqxquj
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         type : 11
+       -
+         type : 12
+       -
+         type : 17
+       -
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB/S+NNLOwqHDgG6RTfpvNoChhtdl06Zk062RG2NxjbbGBglnd2pLrj6mNcJaRV4QPYbJD40mNtEOFMNehnKdaf9Dhgc9qdEFdTHGZQoctuekWEEoc6xPsNxw==
+  original_name : calendrier_tab
+resources :
+ string_res :
+  identifier : 0x1db02a1b00368efb
+  internal_properties : CAAAAAgAAABy1N++tYOTCp+fTMt2Oowt0kygBb9Dx8eKAERFUbhdmf/PYYCyzvxBqZ9Jd77KLqFh4Q==
+  strings :
+   -
+     text :
+      en-GB : Appointment not found.
+     index : 0
+   -
+     text :
+      en-GB : Do you confirm the deletion?
+     index : 1
+   -
+     text :
+      en-GB : Selection
+     index : 3
+   -
+     text :
+      en-GB : Today
+     index : 4
+   -
+     text :
+      en-GB : Wednesday
+     index : 5
+   -
+     text :
+      en-GB : Thursday
+     index : 6
+   -
+     text :
+      en-GB : Friday
+     index : 7
+   -
+     text :
+      en-GB : Saturday
+     index : 8
+   -
+     text :
+      en-GB : Sunday
+     index : 9
+   -
+     text :
+      en-GB : Tuesday
+     index : 10
+   -
+     text :
+      en-GB : Monday
+     index : 11
+   -
+     text :
+      en-GB : March
+     index : 12
+   -
+     text :
+      en-GB : April
+     index : 13
+   -
+     text :
+      en-GB : May
+     index : 14
+   -
+     text :
+      en-GB : June
+     index : 15
+   -
+     text :
+      en-GB : July
+     index : 16
+   -
+     text :
+      en-GB : August
+     index : 17
+   -
+     text :
+      en-GB : September
+     index : 18
+   -
+     text :
+      en-GB : October
+     index : 19
+   -
+     text :
+      en-GB : November
+     index : 20
+   -
+     text :
+      en-GB : December
+     index : 21
+   -
+     text :
+      en-GB : January
+     index : 22
+   -
+     text :
+      en-GB : February
+     index : 23
+   -
+     text :
+      en-GB : You must select a date in the calendar.
+     index : 24
+   -
+     text :
+      en-GB : " "
+     index : 25
+   -
+     text :
+      en-GB : Select a task.
+     index : 26
+   -
+     text :
+      en-GB : Task not found.
+     index : 27
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

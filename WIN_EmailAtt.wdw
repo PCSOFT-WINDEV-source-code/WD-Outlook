@@ -1,0 +1,579 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_EmailAtt
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_EmailAtt
+ identifier : 0x2388cb33261fdba0
+ internal_properties : CAAAAAgAAADaq10wcXd/9Fs78jtKARQ/1FkA2+XqPA3aL1ytLOIaAa7M7L33TsEkRRJZBs1kJdkHJ9l4PA/CwPwxm7yzbRZaCNxxhyB6XlXWJka3Fu8+XFsbwsZO1b12zrqRrGaj0pcbXzGFJl2UoZhqlqyROK80wRcrMiqTcNxqW2oD49eqB8y0UvNZeihBZzz7iWh9wIC+jmsx5Wiznx1GLTI6rypScIcdoFmaDpbMVZy5M5PekpLcLPPhgQCMYaXMlvZUUNOP+/hkUNbZDp+LQII9YIJgt6yKh6QaBMWaF2h+Ohr1w8n6Qe8xsB/2aHi7do0/VE+ld2JLcDy2EaEFAhNMRHn+7MtXPGGdZcjVEIzU1rHAN15235iIfJQwNphc+9reTssRr043QU2iGome0Wsk0SzV+uM/gnnirNxLJH3riljMrWnZrhhkxzDhixdN8A2k/+zRA6bvMGDl7bzwm52y9wnd9slt9vnVpWhaoCOyGq64/8R7AzOSmd9DPx+x+NkPUBeXBLU2vo2Gv/HHqMrehfcL/4/kNSYhktP4OehGM7MpKELdXi1qUoTkkk1Av/WxztCjEBHw1t4i2ZOHftW+dxB51ReG22KulC6eDTTTfGws2RbpaWafn6scQO04Y8NbFIJ+I5sXXIgCdygiOJMohgOwzrYsNb9GD094jqfpxcDCVywtauOQcM0OMJd4o5oJg9Dq2IORczxkZjKOpuWeIow2MQXUI4pk29AiuNNnfJXJqCt2H+oapx3TY+d1AmX1fEot+bmnfEvbACnDmsfRSvhHx8eq2DG353zqaOj8tue2GX5+MJF42RmC8cWdZXj3NtbpXb2RQScn+ctPPu3hoH4Xs3KFI7GYViVXifguA8UQhOwwmM3cmox+xoxl6fJR/uWwVmvaqGLcy+ueO2F+TURpi7/qZsEDQ2wUUNHzEB4YmPJ6AkvqphzkavNkyVkjuA1w5hxvUGLUIrpRa/tg8j4sa/DEMFcnfDx+Ds5/GKs41X0MBmHGtvunkqL6pNCZCINeU3jzeF/RBC8BCDOSYg3thCe4sGp/sMdDbjiXsaD7yVw=
+ properties :
+  width : 616
+  height : 674
+  widthClient : 614
+  heightClient : 642
+ controls :
+  -
+    name : IMAGE2
+    identifier : 0x2388cb332620dba0
+    internal_properties : CAAAAAgAAABNQVbJT7mtPLHVXkoEP1xQec3j2Dsg3wFASP/PiSoKYzvHOpzy5vvxcN/iQ4Zzalx5UQZnA2LRxQH9ANYfKDyRqVndEBhh0MtHWX+gwA3t5MwWBcXBTdCl3ylEd9fKh8ryexpDJZjo8tO1KdchpkioRa9vcyTLROnIeikLvGQcp4/LWTgkmZclYS5B4PKogudGnPE0dPhiTiv+8NewMch4J2DBEEt2VA8c9Ny5wbgua6W2E5pct6tL9wJpUVV2tUddHHAJcnsaHad57U0oBDc8D2VLjrn8K3N72y5rbQNUDt9UcM8iohkfLCe3HubEm52zU60NtVn10zmwqQ+OYf49b5YjPsqdOhxFyrnQCbNdygXClgkRLOaJJyTy3H0ilYRW/gIMsL7EJUmMLzTIRcheIUS8QbwzdXSzpw5flPwyieLtIGNqh2HfLOxbksnammAu7xCZqNtpyK4S2nZiW6esOGrrFKb8Xv7sEHTed9FXOch0ox6MyE4O1beE6TDudSPYpRCDyfokYNu/Guq/x+b9Ajz7DolTSQtLyU0wySlfJLIrHaQLdN6wylk2x/McRZ2xskhR9LeX+1Wa3hvyolXxlgaRMg8S3Ajcaswab5g2a+/g9cxVWHnvxQ==
+    properties :
+     x : 20
+     y : 80
+     width : 63
+     height : 63
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIST_Attachments
+    identifier : 0x2388cb332621dba0
+    internal_properties : CAAAAAgAAABbghcx/MXsyryCDyWyVjCjdhRwLgpb0et8gKDjITLaFFMueMl4Xllg4H7b/jz3iiNsMV8yCS0qw6lfhyw4ZrfqcH/6YyNFhaXfLoR8WF39pW5PAas9nk6NqUBtX0DdjwAlQebnSum1aby/I2OW6mU0FLDHtaaXQNECuyuTZynKB+GhsAmNK0bfR6TGE0xjW268hfrDDPQICI7xTXlj0gIS0FOcJE2qnHblmWcDme+4CYgJ4aEIvjgRoruM4t6/Q8JgIS+IJK59gW0rAcppL/ZB96myBcmJarUSlqRcaZ/PSReUKvzolX83OSgz6BB2YmO2FRU074pJcwAAtshwUENjgWNFxHstp5EkJQntw7DmUdCYisXT5CRQ4glGJR7hkofNZgJVCDj7Asjz6hZYJQOugxUNeAa2hJUIK1NjxnW+n38HOqJIbUPoOA/je3fMEpspTwyQm3zPkAhOYGBgRz/bbBNdpG2EX+po8cYiybILWvHMFvwcqi0s5YDioMq2XLikTJ3ICU6RTQAo8v029iLMAZ9kwPfaF/5RvXxPDWMpkumdxtpbRvLOQc3cgCmM8DBg8XV/V7oWkOU73Xn2QljZhvi1k63gQsPmchyUWfNTIVUpNUilEjOKM2jAQ+5tHZIWp82/F8okT1nwW3242HmSNFyx+iVKZSjY1dCb/8aD/b7Pfl5aadBZzdvVmiFaLwkfI/13SWHfRsb/1mCqwSz6AaBq+lpCZrxi5M9FHzt1u65a5Nyk2JFpoHYUtvbpg9q4//XnZPVzibSSDxqsgDqmAwkuGt2kSPEzE5Fd5OltalK2ENykUqnlXuhL5MNjVjsVUxmld7wbQUKhiAEihPQ8nxaRQ8/lman+U2fsVGQnkdCvVBffJzL3ZE6apfiwllO3NN868knSUVLHrjSlpfFw5MJdJ0Ew+kpZRYmJ4q3NDUXBhUI/LkA/QeM/krHdwcYkvcd8teSsbvaObd+SWu5xFsTmhlN5HcY1tVHe01elwLtEBSMx25EqaEAihBvMeSyRTFFmT8JfxHUICYlqKyS6qhWbWqOstb11kN4iI/PgLCkhML5P4YEn0YpMrqBWrA==
+    properties :
+     x : 89
+     y : 80
+     width : 475
+     height : 542
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+  -
+    name : BTN_Add
+    identifier : 0x2388cb332622dba0
+    internal_properties : CAAAAAgAAAB++x61j6wvP8azCI90D20jAmt+tCZyzA6K23F0pNu4yY0K/uxqPANm6brkyf2+HT8vGgNUCmm+uaGGp5fbwLt7itSwWfBTHpvKeLMkpO4hOiZiPgWUIxAhU5d3N17Y2iuO2SWTgjco4nf6MkzpUkkQSEk5bFAEWXRkviK+Ca2PhzYcddRSVcpkf036jEVCK2giOxlGfuFSJgcldb+bRLNfN0NiTONwznrZwICOfQXLalH3WN3YES00qcYdyw2FDh2ZudwMADACo8OIJW8UzCRvn4inNiFbzpgPvj/5EmMJ5nen23X+D/7x0hFh+fg8JvZ4odtPxI+iIg/+GJSaoOs9lb8m0K8CD9SlId0wb+F7VLHhu8IHc5rTDDb6jCHu/7gzTOyJ0/ujvxbxtuSSZqVmmDWEj9WJRxUW0S5iBMH+HTIisM2Ro4crlwKIa/SAvqmZeZHzTLsU2/NjNYGAvZQwhFeIqCoJRWxdvRhiL9J6umD+xA5EPW5XJ7Cc87cgpk7nEjKFlPCv+ayADRTAzC3p1RLsHsa+ocmk20QVb58Ac5n7uqQ87H4AdPb/zkP/wcDCfkyjwNXZLdOL5IQ2emH7Q9Rixoakt98c5gcYNN9xWFKrlkvYztNWI+HMlyGugWleIL56Gm8L4ItmrhXW6hZnLRE4McBVro1rHNuAymgMeMmZe1is5AmsNKxhy2uHJmJBKrZgNiP18227tG4FLdexuMvBQaxjQjmNPFteZKUduT3D9RakeAQG6WDviLX8Jg6C4aVYnOyHeieuLxBYNonns0B5vz0Ovr9l9SfG6p41Crxezigwyldvca9t2IY93DT377nNSvEW6SMuNlFIuITSrYbcUKMNXqwOXbodYXiSc3NC+4DyZ18PTQ94WarFJfex2cGmOA+bZzGqvt6OooAarQhwjF+VtPI+3EgOBu2pCIUG6RsjWfzhf5hM+5CmOoyKvLcg0TevAK5znBpOqyRPG3CHwKiR6Hf6t183LA+vci0Yqw6K5hDXlxCN8Cm9N1OUuUW5N/MKMCOokTjc/jFHQsVq+bVzyKaAiqg3
+    properties :
+     x : 570
+     y : 80
+     width : 27
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Selecting the file
+         sFileName is string
+         sFileName = fSelect("","",<§$0000§>,<§$0001§>+TAB+"*.*","*",fselOpen+fselExist)
+         if sFileName~="" then return
+         
+         sLastName is string 
+         sLastName = fExtractPath(sFileName,fFile+fExtension) // File name without path
+         
+         // Already found in the list
+         if ListSeek(LIST_Attachments,sLastName)>0 then return
+         
+         // Add
+         AddAttachment(sFileName)
+         ListAdd(LIST_Attachments,sLastName)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Delete
+    identifier : 0x2388cb332623dba0
+    internal_properties : CAAAAAgAAADEmgNjFvmc9FWZ4gH2+WNOXRJpEIKOtaSVQCracnAn9v3iAgvnxn11sw1kvuuuv/Gk+WYplrJVQRmBQis37HrxtxYqFe0WVXSvXSoR99qvcEXlWdrs6XPg1CdOKNxaynxWoiLcLY+0CWVPHZ3KjkFn/mwhudvtMGML/F73Ct/rtYErpk75PgsV6w7bGPEOifokw1IZi2zJ33MQ9TOLbg80KKd8vaKIA/xZvkcHUM4VPWqvx3P3a0JnFeFvnB9GyV7hedGbob1+Ui/K1qNOaKWn4ISfNEdufAEqtTouHZpgJfp/Sz7uLl29CY5iPYFxuXz/uTU93qRRdjjvOLPk31ZboadZxbMYJH+rSY8cs0IIeWwMmQXfU9AklcJ7fDQFzUu/yQy9XJCO9w5GUXes1WSOORcSZ2BW7vSJCs1iF3uX7YteGrca92Ux5iKB1HpuHZlydODRbmChM2sCFj01ZN7YtFODwInWYcpE4gpFAELTbxchOYXGSAA+Cj4WcCAFw3X17BOjF1Q6PpE30H3Y9/98zfXFJ36ZL2H7sbcO9XgvRGaBh+9vTerx+blXb/0OhxisvZ1UvuvTMTRzudEys21ahEXJRYwg2oiZq1LfBv1cHef0C9svAIzBWLkn4ATYkMcz7AmzzORHn9fHiD78qG3H4z27cEaTfirTnDVOQjnkB9R9faQLhWiKvaFrQlTnqH4OYyPe5w4oZHOv9+wmizdVNPhCLZ95Dyh11IveYj8CtFzFewyWjDEOykncxkVtSuGqGeTOpfyNoEFvXJVAIPA2yL3hvIUG7n6Ccgr8Hq7ew7XKqqJUfFr4IHux4jHf0hgUIvig6ewdcQC2Busa1LJmBsJE3EqhWqXVcFoXnjCi9KpQN7OiaJdeWbV809k4uaWpgYHGwqqctT5xOrJ/RkG+YHVV9kF/+5Mspr+CwR63iAp7kGcRR2l8JFOCmV6utkwawAnP3YoF1apodHEa31JHprpCaR67oaXaQb0EZ01UdjtoEcpDOOMmtWXGcct6DStEviDvaHaoWg6RwlBnSxz8cIF4rEAurE7hvqyf6udUhnLrJw==
+    properties :
+     x : 570
+     y : 110
+     width : 27
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         if LIST_Attachments<1 then
+         	Error(<§$0002§>)
+         	ReturnToCapture(LIST_Attachments)
+         end
+         
+         // Deletion
+         DeleteAttachment(LIST_Attachments[LIST_Attachments])
+         ListDelete(LIST_Attachments)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_View
+    identifier : 0x2388cb332624dba0
+    internal_properties : CAAAAAgAAADKMzTDQwk65qmN0z5toKGHNHQTxUTYKni6eWB2HYDNunjzUV3eD3Caps5LdEBvqXT9oRTpbim7q2R8giDfcTbhSfHttYdPMtm7XpANKAtdFvJhDll5tbHYgllPMvJsLlAM+JCDOzPwXkpDxt8O21NagDVbh1SYeFRBGTdAAYlqkJqKzbNRtugwYVsX3fsTCDZ9vwVmm9zcetuBO5k0O7TC8wyRSPufdUal3AnlmzboVWq36dMcWbiitFigyHXk7GjtE4MtrXpkF5GCcE7zxNhopWeyucPi2l0N0FIQq51m/4oiYD1YlmE5Xzj9ruepa3F49s4jHt4DnXjWV2QTfWkwWSqKSiRGHWrgGEWkmyVwYGYG6YTpMqfNFh7gvjT4Rw3tHYqOmt2VsVI+h0QJhkFTz6kr69A7XA1g7SkXTu/D7f/H2qaqVgWtqlJUf7q7L//puNfHBLdvbMRwjBT3SfzNTK5/ic5EWEgNt/jz3kY4i2X97lGQLD5oHRYmt2E/ONMdkhvhlVtR7EaoT5o/0f1Xuyt5XsPRv9TfH/yqL2Jk+KJQ/r/Zcnk2zbYKFH2KeEcwwNdgSbmtw946Uv4MXI+vJ3RsgGrLouhiCHMOHnVaAKQRlhTX0xJmvpZbxnVX64sw1qMp6UorEedQxSeWe9uVZVLI8qamU4lFoPWmjHJJo6cX/4RfdcCtcV+lwtt45XxRIj6LDDIX2I0wOHKxoKBDcW49RQF4cSY/si2ODR/g0JSJPwJE4YKYQ/0sakvp9Z+JAXu84g1Wi7PG5PltlV2+ymOf2vndUdO2Jmcz3fvH2/BriDpaE0zhnOhRB7CtoBTTbhQLLyGyNRenasea+g9YbLUePb4NYoYVHHCnUZMU4DrbeuJMpGQDG5Z1yXzKBD46ypiD5C8gzIordm/orFts4gbBwupMkfvg3EEVEGTslOTpFKoGIY7TIv3IJ9TaPAEMbgYyrowYtZZNyhQfyKcvvmVjGm7e3x6ZIDZt
+    properties :
+     x : 570
+     y : 140
+     width : 27
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         if LIST_Attachments<1 then
+         	Error(<§$0003§>)
+         	ReturnToCapture(LIST_Attachments)
+         end
+         
+         // Extract the attachment from the message
+         ExtractAttachment(LIST_Attachments[LIST_Attachments])
+         
+         sFile is string
+         sFile = CompleteDir(fExeDir())+"ATT\"+LIST_Attachments[LIST_Attachments]
+         if fFileExist(sFile)=False then
+         	return
+         end
+         
+         
+         // Display with application associated with this file format
+         if ShellExecute(sFile)=False then
+         	// if no application to view this file format...
+         	Info(StringBuild(<§$0004§>, sFile), <§$0005§>)
+         end
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_OK
+    identifier : 0x2388cb332625dba0
+    internal_properties : CAAAAAgAAAC/bV3St3nIfzbt5WGfbyjoaZxL2uTXKvz/j730BV6ywZkO2TMyWAPh1te6S+sLK8UvttA7eZyTxuQ4agBAkaNzFZ9R9FSTqPrV3PKGgZDqesn3sFrBHWMRZ4SjRufQgabooSZnh5zdYWxA3QhGkh76KERBV10q5BXpd8/Kjsr8gKNwKBKWA4qGzghEgvRb1jwyzXzvEyHYmWnwakGsE4ss3WImKHgXp7bv0D7GymYVFeYE/RG5QsjlELzHDiDnpIZoF3aq3YL97oQsz33jk2IBVqBh8mfnSlUiahGGj75bwE3cLkd5sHR4VreGEbMKjsKU93aoZLOGCuVEwC/GUtlkBe7C06DYuhksYH5UOLBnk33DCQVsks844iOGhLo4mcWDNUZRdt5qfTKaShkGdM54pa3Vqc1IvovorIC3c5V60mU7me5AADeqQIigj7FZD4VbQipf0qgRDXHBagfjEP2BkcqMFos83aDq/z7iWqoiBs2HfEXf1G2i8QVRixlt0nryb+t1pAeALoDh3iXeZT9JU9qOhmaj2mhfbVXAUSJi2MwnpnrIEr36GfwjKmzXdao7EYCwPlHzXAlEdJgzEuV6+1BX/nXu41A7yxNon8eCnnQUFeA37zMS/dlkg+YxgV5VPeva4Y8V2pvSgQMX3uAOASdiUHMTtouuVs4XmbOrM2fQHNOxT5v9kNv5sIigq4GT/IJyoSYLIsjuy/PaxRBd8iV1zuMkKp4vK3kU2hhQcFKNiKWo0ddtfO0L8Bc1ZXODr6x9ZNHHqDrkLBn/qne5J+F+P6PG8qUt9JpS9bC6mfMbIYT0IIQPx2UHRhlST8gWLgDm8/0hymIkcwUWlwB6+WyeOblwRnHRWnj6hGREOx4p5eUhG3nMb1jh4nm9XuEcBBgp1oTi5IrOHXDRwRdUYTOBgjcHTfNiviHUCclWkLgk/TdhzS1JVTaBmnkfuDxSK5nFg49Lan4SB7RPnaI2VKQMo8A16bAbBRjIorRHP3k8nvsyprUmsvt7tCIW0UI1zT3dkELVni5xKxKlAHi/kKrDijRaCNrpWbqhcrfSLR12nCtdxMXwmowQtOrfUSKCSq0s6/RbtNzsLKG1aqd2kMD+mpmuOlETLRBJdYVOQVCFUafaRahqUCNyXprHFfBSK2zu4iPHUJrFOB2SN0WxkslXvNTW7LuAfIsiCXt1krM=
+    properties :
+     x : 725
+     y : 515
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAABFaMd4fDK3iWzbyqHR5OzogOXjpu/mmK2+TkSrF+YtT0aMUdB1KdYjbeDsSseQYLdULFRwHCQb9l0lwnLA3q10EY6otebmn9Z/yk8vW9o0whcrLuc1qJieZ48=
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 18
+      -
+        type : 161
+        enabled : false
+     templates :
+      -
+        name : BTN_OK
+        identifier : 0x1557a72f0129ab5e
+        code_elements :
+         internal_properties : CAAAAAgAAADV+FfozKInefxLWhHh9Nw40DXzVv8WiB0OvlQbp3Zdn5bc4cBFWcaT/UAMKucgsGfEnMSADDQrhi11kqIwTj2EAf4Yxdb2r+ZPGh8fS8rEUoebnnelOCgu9x8=
+         type_code : 4
+         p_codes :
+          -
+            code : |1+
+             
+             
+             gbOK=True
+             Close()
+             
+            type : 18
+          -
+            type : 161
+            enabled : false
+  -
+    name : BTN_CANCEL
+    identifier : 0x2388cb332626dba0
+    internal_properties : CAAAAAgAAACu3mAiZaf9VRADXkeBt7x127Dp5afr8MIpx/yxHPNmxhyK6qzlAiIohfbn9YU4ZnC2T0rBXPNm3a8ifGjJYTAuV3mWPWsyo6l0hq4SsUrt2mHfI+p1nikVFIRIVz49HD20w5bt1wnW3YRJBQXr74q0v01qo+LtWLQrBn55qdgc3jxOx1/NyRsZy+CI6JNnITBNTY3svtIJ3UFYmVokhsvQpBTd0P7ZSNNf6O4c5mHSe/RswCP9Ng6rOaPP6BUQa2iFDNMRe8tsGvjyW39feChFJhpGZ7XTQcd4tF3y/ADNJxoUJ0ihvSjgMsD+6bn9pjh89GNu+lkC7iXNg972EuQ2MCS7lxt0wnRbrZTuKLOrpz/mAhVb9+KUsHq4+xefeIM0NoZBoUFDvrehSRCScNU/TYRtKHGsB0gWw/jutZ8HKWTIGqlIXp7hXjZaz3fiA8vCvwuJXyISuHUpif+0lTbhzjHpNHJGFc6NJZ5JcRTS6ayV6kj2RX39KpAAEuvAk9yV0rYziUtgfJCFQiCoPxP9hjJmoEadHhYyzG1zGBvYWFuKMBGy7Q8motgmDPe4AQuMp9FCHFL8rx1SCbzsfRe5liCbMAXGoqrTv7RCLfAS9Z+nzu3Ps4WJEvvBinfVX6+8vxlo+0jI7IVSvYAyyAncCOnGmiH5Kh7TIz9KCWhSSTzOWg9ap7EqkoY7XqaWt4Ob7oFdZjZzEW1P8qRX2cVjuTGQoxjQWVK+KmpAtuMBVQLfZu+lZzJP5F135/OrP03/mlknmAWBox+o0aWnchha3pa0mlkwTcdrG5QrgHiSdeIs830SaOpi2XM6NQw3mojNtYjjsEVveG/lvCunhjFA8ZxCztX9cbmJa7poBgtOmaoW+gqFbnsX89mAvTAkDciFMYiTPibhupTBimrQZfaQwBgzFdyw19pEvntJyxd4KMyV1+vyHooIDFa677gLmIaOWyCXjhnbz48zWsFIuJE9P4DDJH+KiMJSoWNuUkG4J4fNss1dWiEyynMg24RmZKnwViPDR7boLlGimJ4Q59C1WhjdC53xaDo6U2pcpXjF9+6Y3UYdMvXLVkalDnEcfr0MCgmbnxaI7IY=
+    properties :
+     x : 724
+     y : 548
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAABFaMd4fDK3iWzbyqHR5OzogOXjpu/mmK2+TkSrF+YtT0aMUdB1KdYjbeDsSseQYLdULFRwHCQb9l0lwnLA3q10EY6otebmn9Z/yk8vW9o0whcrLuc1qJieZ48=
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 18
+      -
+        type : 161
+        enabled : false
+     templates :
+      -
+        name : BTN_CANCEL
+        identifier : 0x1557a72f012aab5e
+        code_elements :
+         internal_properties : CAAAAAgAAADV+FfozKInefxLWhHh9Nw40DXzVv8WiB0OvlQbp3Zdn5bc4cBFWcaT/UAMKucgsGfEnMSADDQrhi11kqIwTj2EAf4Yxdb2r+ZPGh8fS8rEUoebnnelOCgu9x8=
+         type_code : 4
+         p_codes :
+          -
+            code : |1+
+             Close()
+             
+            type : 18
+          -
+            type : 161
+            enabled : false
+  -
+    name : STC_WD_OUTLOOK
+    identifier : 0x2388cb332627dba0
+    internal_properties : CAAAAAgAAAAr+zev4U2lJVxS0t4eQ9RGPpiHMg2wSnGshsw6F35ZTAJRhonVWhRSppWoKJLcsyDvP6dMiDrA8lqB37rM082/FLdNN5wSW/BX0FQSHX5GIlIVgXGSf6HnZo6JD+BNUx/5vupizuva54SNYMwhsnft0qXEGe0PlqvuNE/+dUwfqQmpiVp3udIT5VSYFNKADaryBWpxFxWoM0otslBJ6SbSe6zpWTm1HtygU4kigzqXqpOkjIlf4oluQSi/hlkTLR/72fhQDlHVVEilNAKaMmawont9cIapltgZyaTr6kjpLJIrfnXJBRG+xUYNippFtQEC0uA9CCskn/TOll1sUtw97Yg4XLOm0ElmR2Sp1Akt2kTnsNnj6fDdB+ByEhiG3qp8lJXBxRNlACVNrZMy2qLoSCChhT9xr7n6GNfHdWvdICoQO8M1JSoQ8rABpZ3Eoq1Ru7twPZ/pH/ZPSgeQ2cAPm6kcKbho10Ilxo4jngUKX8zq2hSLd7A=
+    properties :
+     x : 20
+     y : 20
+     width : 187
+     height : 40
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAABzSHD3B83x6w8wG5I70chr1F4UO+pAx9hOgkPx5kaUPgAygmUV7f0KTxaiJDA2RzedGVT3ixM/S0flNoVD3yXT62ghBs3yzAwq/VBDdfZd1LigBoAVrPHVASsGsUiWsYlJ9VReqgjIFc8=
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Title
+    identifier : 0x2388cb332628dba0
+    internal_properties : CAAAAAgAAAD0cQNlF04bN1Uq7ESWQhZDxgQLtQefQYqhprINM3bIPhrlvYsGsAz4b0zHAGqCFdOmPjt8axjQ3JOBERbHcCEcnmAGdv4PP9cIJjeTiKxGCunbcfMGV94+m8E218gWsBDfUtx9wNj5wPJ2JIGE0sCxKSJhkKAOJdAp3kzLZcpt1uh3Z53lfPW3rYUeAerO1XJIZb6y0H+eCDojdCN+1XFLnC890mQTM/x0c99/Ksklr2+Sj6Ly5XiHgpQr9e+Xe5BMCkAHgIf6/ppVUjCvmyR4DiAL9Lm3o+WQC61Y1S75y/EBlsFbS5h+Y5W+dngcVMRT6TNUbjLy01d4WXWC/KHqWHpxKN7NAn0AFHKNYq9XM61WSrQtj1lOXlSrARzQaACDy0/0SZJLn5YTrMwuYNFR7AJlMyqm3/gi7YXf1G44RNeD/JuloiFVDzdEFU+1BBUOOPaDQBUbD6iXEE8LBTMvEjAxDeJvIILpdcMhsXt/0Kn+wFqNYEeA6zfOcBoVKsZx1ez0YbXen+DC5HmN0l8ku6F8DIThXzG+zib2gWsSmMlzECbyZHHXIU1gqMaKFyuJVOpNd7ZdO/YejnawMHUoBQPxWxT4Zz8W/g==
+    properties :
+     x : 346
+     y : 21
+     width : 251
+     height : 36
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADuzSAhhWveQFekBeyuMYn/5Rrsr+Av03SZh8g7m0p7xUhgaZSlmXrXOwyc+pepmb4/Matpd+HkafyWsUOT655vamfx/K3fls9k72TSBg95hVj0Zz7s8e93DOQ=
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+     templates :
+      -
+        name : STC_Title
+        identifier : 0x1557a72f012bab5e
+        code_elements :
+         internal_properties : CAAAAAgAAAC+nfCR1RtOsKeUFdw+QfkPdWp833CfA6SpN9grqxqr1dgw+QQ1CepHi6y8Wnf5KS6voRv553F0+UwmwXPD265/GpehTF1vJl/0f/RCtn+JlUjkV85cQT/HXLQ=
+         type_code : 2
+         p_codes :
+          -
+            code : |1+
+             //Runs the process defined in the template
+             
+            type : 14
+  -
+    name : STC_ModificationDate
+    identifier : 0x2388cb332629dba0
+    internal_properties : CAAAAAgAAADGqFf/G25BOximzcNTnqrgUuglFoSQ8467R4Rh1Y47OzVZc61jXLfF80f7k/J+dx5AeCbpIYcb92EYEqBECCXmI9zsg6h6QjXDGt158KZXgDPuP9+4J/tRqTRs378TTKPgLVbCV0fw0VWPQOWPvIF4WFhvdb4cOc5baNNjYmTiNMSmzVLKPtt1Zs6K18hNBh5/3LU9lz7g2EjgUppK37fDsxPXzAETOU5/1MUmPGDRX2scalitaaQ37Te29166F4pJJFzFXunUl08GsNmYGH1kzmFiavpONcEwP553VN4MoGYOMkc9u1K6A8Yr7v5tW/jmP3dpAj/4ixQs1hOxWRlaLVyXvrR9vbF4j0Ng/u5OK5lhAt/Yxem2pcT5WQP5q568NDxSg+mkU3DG+dLF14tm3W2myC/NxS5amFAgWaw2fPG24ZY7Y/SKce1cLdzAWnf6oPDnsBg6fhrt+xS8W+lB2voM8vQLklSG1vdlp8aL4ZFS/2VHvC19pKhXPVPuepC5++WM2D1MmiO16NLYhCP7YFFHYlFkMh/XWO91W1CXxd5Gtk3Gkp9pnw7q8xGHl6JjXt7+vG7gCkY2edflDI2gYT70syLyQQ09OfjQpkx+8IMztS9Et23HsvYJqHc5wuIGvYfNGk5fFMn6V/9lccmP84hWULFTNiyitfIJOsO0yP4uOD8k83nPpOMkUsp4ZDpVGSbIvifUj5C9+JYZ5mqmJEoTyp2KraXVuKPM/LpQvC/oTTgP+kf3TOexJbPr61qZDPETlHLyHj1Q+AZWX05iWcrQNnpwWoKoSi3eGJ9yCuaRDWYuvKxf9SejvrUQZoSVyogc2/KV7lwOxVPyznw+StCZvuIKY1vbCy3jfk6Hc9SfFx9W22ec27Rd5qpdQVOGh9872YI=
+    properties :
+     x : 675
+     y : 121
+     width : 277
+     height : 28
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADuzSAhhWveQFekBeyuMYn/5Rrsr+Av03SZh8g7m0p7xUhgaZSlmXrXOwyc+pepmb4/Matpd+HkafyWsUOT655vamfx/K3fls9k72TSBg95hVj0Zz7s8e93DOQ=
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+     templates :
+      -
+        name : STC_ModificationDate
+        identifier : 0x1557a72f012cab5e
+        code_elements :
+         internal_properties : CAAAAAgAAACQyIreJT+J1qmNTvdNPA34dZEc19M7cJTZUoivDQiaQk81KkBk/nVzHdtkhsU2b8ejabKPmW9/eEDW+9zJ8NPABhHc3tG65xgklHeg1/jBvU8FAQw+3MuwTahT+5mk1JwKZ/fGMVsy0SWlzJzUgUab643xyu5Miw==
+         type_code : 2
+         p_codes : []
+  -
+    name : STC_DateCreated
+    identifier : 0x2388cb33262adba0
+    internal_properties : CAAAAAgAAAC9w26BT9LxwkYvJyaNo/NXWKLVwTDOFkSzEt4WvABjxb+74QwR2lrl9rJEF5f1b/ANo1OGJ9qKHa7svEjS1uzLi/z8un9GoH3hzyau4HP5xV47+pnynfov0NDFhixDkhNnOJkftl/5y2367QDl69o3+GvzNO4Q7SQ1XAEN/W6sQV7h2ENcv9WHB+EyYEGaAoLgyHarHDkr62x5MEZrWXEVGxYHa+oeNmrI6/NXuV+/ME/WUY0yzfCFAsBpmsQ1fRSxPuPHZwUPfgNou5EWVweI3ZKw8TKsdy/T/+TpdLXWhNn+jrPFgwX1Fy+SFroIRH1erFayUpztabgDXWkpMBC479z70NfY4KyUXY6Jxkv096HcgqTeFDGTX6QcydVPPTfKQpLYQUiuCeYf8tz6ZJVML2pzWOKgRtj7g+8co79Nj7aa5ViP9AqCD7uQNVS2RvdIqOSx0BxrjB9/dxBBhNrqJnZDxIFl7Fk3d7m5sB72YXlaZYuDwjn0PBfshKAV3GXLt+ClYOo7KvNWrYd6whyBbatrqb0V+osdCAd1S5dWRcfpqAD7Z3lRcqbPYa/CICpmnqfcIPhwfRbh57zMgz86cAdapL72zqQWKYyBcKg4vU3f5jO0IKyvjFd61BXbM6FNz2k0V0n51kGbDjkUsZ8wgE4M83lt0rY7+NMBUe5V9KjogacWqr1JF//M0hO8T+dBtYso9fE55vVzgDi1GNpHbdTfvdHLErVh+EGVuMqdwOehk/XULwpeoDL1bGeU19r2q5vgQlxNngu0xstRXYX3eveAI+ErQojUNoudpe274tgyMeOyEVW4wvuZDL6t0ME1HyOG1Wp0je6aerfihe+/8USX150XehyMMTpntLPbLKqQjYYngQY=
+    properties :
+     x : 675
+     y : 84
+     width : 277
+     height : 28
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADuzSAhhWveQFekBeyuMYn/5Rrsr+Av03SZh8g7m0p7xUhgaZSlmXrXOwyc+pepmb4/Matpd+HkafyWsUOT655vamfx/K3fls9k72TSBg95hVj0Zz7s8e93DOQ=
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+     templates :
+      -
+        name : STC_DateCreated
+        identifier : 0x1557a72f012dab5e
+        code_elements :
+         internal_properties : CAAAAAgAAAC+nfCR1RtOsKeUFdw+QfkPdWp833CfA6SpN9grqxqr1dgw+QQ1CepHi6y8Wnf5KS6voRv553F0+UwmwXPD265/GpehTF1vJl/0f/RCtn+JlUjkV85cQT/HXLQ=
+         type_code : 2
+         p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x25818304ec24062e
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAD4C4Cu0KY+X63fB1irpNEMlw6j8PXMhY/Jz736FHUQqhbZ5ehCDHBwKQ1avkztlxmo/XMZa0uzd2MJn6bGH1KSrHWn0QHpbM0eFp6aVGy2PdQFkILWOt1CduQ9QBtM22g=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure WIN_EmailAtt()
+      
+      
+      
+      // Display the list of attachments
+      // Note: 
+      // ATT=incoming attachments
+      // AT2=attachments to send (by default: the received ones)
+      
+      for i=1 _to_ Email.NbAttach
+      	ListAdd(LIST_Attachments,Email.Attach[i])		
+      end
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      return gbOK
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : ExtractAttachment
+     internal_properties : CAAAAAgAAACK5Zbgb1cAEeiYNyGGBHu+uUb+ClbRHcYanPQBkeoKG0wJi7oplDBJQmo22E746a7q0uaDdmg1k5JO3Qb8rtThGRooDKgo3y4AqJIDKxAfREVKuoy8sT5dO2iTcy6zA6qqWXoqA8RoIxfCfZ5HxxpH4EZcDfust8y3PKvnDBzMARHTiwmqBUwp1/R2ftO3YhjLpLe2aWI=
+     procedure_id : 1407598303476046752
+     type_code : 14
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //[ <Result> = ] ExtractAttachment (<sNameAT> [, <sTempDir>])
+      //
+      // Parameters:
+      //	sNameAT: <Name of the attachment>
+      // 	sTempDir (default value=""): <specify the role of sTempDir>
+      // Return value:
+      // 	string: 
+      //
+      procedure ExtractAttachment(sATName,sTempDir="")
+      
+      when exception in
+      	if  sTempDir~="" then sTempDir=gsTempDirATT
+      	
+      	// Reposition on the corresponding OutLook object if we are not creating a new message but if we are reading an old one
+      	if Email.ID <> "" then
+      		if not	EmailReadMessage(SessionID,Email.ID) then
+      			Error(<§$0006§>,ErrorInfo(errMessage))
+      			return ""
+      		end
+      		
+      	end
+      	
+      	
+      	// Find the requested attachment
+      	sNameAttachedFile	is string
+      	sNameCopiedFile		is string 
+      	nNbMsg				is int	= Email.NbAttach
+      	
+      	for i = 1 to nNbMsg
+      		sNameAttachedFile = Email.Attach[i]
+      		if sNameAttachedFile ~= sATName then
+      			// Extraction into the current directory
+      			sNameCopiedFile=sTempDir + sNameAttachedFile
+      			EmailSaveAttachment(sNameAttachedFile,sNameCopiedFile) 
+      			return sNameCopiedFile
+      		end
+      	end
+      	
+      	return ""
+      	
+      do
+      	Error(ExceptionInfo(errSummary))
+      	ReturnToCapture()
+      end
+      
+      return ""
+     type : 458752
+  templates :
+   -
+     name : WIN_EmailAtt
+     identifier : 0x1557a72f0128ab4f
+     code_elements :
+      internal_properties : CAAAAAgAAACJrAsMoJbLNSAPnlWlOEBErNGf8lvilCEKGrBnkxIpU5pwlZTpLYrfU850Kt80tGM+EPCUeIB/mvHJJtZsQoGIBfocweqaSwKrpquL/wYADsNf2kvR1MxSK8M=
+      type_code : 1
+      p_codes :
+       -
+         code : |1+
+          
+          gbOK is boolean
+       -
+         code : |1+
+          
+          
+         type : 34
+       -
+         code : |1+
+          
+          
+         type : 234
+       -
+         code : |1+
+          
+          
+         type : 165
+       -
+         code : |1+
+          
+          
+         type : 177
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         code : |1+
+          
+          
+          return gbOK
+         type : 2
+       -
+         code : |1+
+          
+          
+         type : 11
+       -
+         code : |1+
+          
+          
+         type : 12
+       -
+         code : |1+
+          
+          
+         type : 17
+       -
+         code : |1+
+          
+          
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAktV2fy2FSZefpGcxdFf8FNnnGOhJrAnQ2kZc5fq4YdKFF2XHg8cXbSOnssvwDXn40GpLAlf4gMVEkiRhD+1/lVda/shgmkn3dOOUao0TEvP6rrJOE6vB6XvmYEvHZoHqWEK9c1NH5fNJS/dVgz7kLHg==
+  original_name : mails_pj
+resources :
+ string_res :
+  identifier : 0x3c0216ab49a268f2
+  internal_properties : CAAAAAgAAAD3JNAOZuwUWny2R6gXXuJ52Kg00MgYV1soPcc9CZtWpTGHVjWtTnub/Mdsx6dYQD1F9opUwA==
+  strings :
+   -
+     text :
+      en-GB : Select a file...
+     index : 0
+   -
+     text :
+      en-GB : All files (*.*)
+     index : 1
+   -
+     text :
+      en-GB : Select the attachment to delete.
+     index : 2
+   -
+     text :
+      en-GB : Select the attachment to view.
+     index : 3
+   -
+     text :
+      en-GB : Attachment saved as <%1>
+     index : 4
+   -
+     text :
+      en-GB : The file name was copied to the clipboard.
+     index : 5
+   -
+     text :
+      en-GB : This message does no longer exist in OutLook.
+     index : 6
+   -
+     text :
+      en-GB : Enter the name of the contact to save in Outlook.
+     index : 7
+   -
+     text :
+      en-GB : Enter the name of the contact to save in Outlook.
+     index : 8
+   -
+     text :
+      en-GB : Enter the name of the contact to save in Outlook.
+     index : 9
+   -
+     text :
+      en-GB : Enter the name of the contact to save in Outlook.
+     index : 10
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
